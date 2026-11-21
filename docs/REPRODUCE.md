@@ -17,6 +17,8 @@ Place the ZIP downloads from the [RA-L data release](https://github.com/WUJIAHAO
 
 ```sh
 python -B code/verify_downloads.py downloads
+python -B code/score_franka_archive.py downloads/franka-confirmation-trajectories.zip
+python -B code/score_franka_archive.py downloads/franka-demonstration-trajectories.zip
 ```
 
 Each ZIP can be extracted independently. The first directory component is the study and the second is the paired case and method. Franka trajectories contain time, node positions, rest nodes, tetrahedra, measured joints and hand poses. Schedule trajectories contain the per-step mesh, velocities and counters, separate gauge motion, and the aligned observation/action sequences. Read NPZ data with `numpy.load(..., allow_pickle=False)`. Earlier bench cohorts are preserved at the resolution listed in the figure index, typically as per-trial metrics, traces, or physical ledgers.
@@ -38,3 +40,5 @@ DEFORMLABSIM_ROOT="$PWD/runtime" bash experiments/run_franka.sh F01 D
 ```
 
 Set `ISAAC_PYTHON`, `ISAAC_BUILD_RECEIPT`, and `CONTACT_BUILD_DIR` before running. `CONTACT_BUILD_DIR` must contain `sparse/` and `dense/`, each with `libphysx_robot_surface.so` and `rows.ptx`. Use `MethodNames.json` to interpret the preserved backend IDs. `experiments/franka/cases/` and `experiments/refresh/cases/` record the paired inputs. The gauge driver and original runtime sources are provided for inspection and rebuilding against the version-matched SDK. The local build receipt, generated native binaries, and simulator are prerequisites for a fresh rollout. The public release was verified by rescoring the archived trials. GPU rebuilding and fresh rollout validation require that separate installation.
+
+The state-mapping bridge imports a locally compiled `physx_deformable_readback` module from `runtime/work/native-readback/`. It also loads `runtime/work/kernel-observer/physx_cp_conservative_trial.ptx`. The corresponding native sources are under `runtime/native/`.
