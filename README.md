@@ -6,7 +6,7 @@ In the 36-run independent Franka study, Consistent State Mapping completed 5 of 
 
 ## Reproduce the reported results
 
-Use Python 3.10 or later. Run these commands from the repository root.
+Use Python 3.11 or later with the pinned NumPy dependency. Run these commands from the repository root.
 
 ```sh
 python -m pip install -r requirements.txt
