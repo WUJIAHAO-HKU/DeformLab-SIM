@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "task": "cloth_grip",
+  "seed": 0,
+  "duration_s": 4.0,
+  "material": {
+    "young_pa": 20000.0,
+    "poisson": 0.3,
+    "density": 500.0,
+    "friction": 0.8,
+    "thickness_m": 0.002,
+    "elasticity_damping": 0.05
+  },
+  "geometry": {
+    "size_m": 0.08,
+    "resolution": 8,
+    "cloth_resolution": 20
+  },
+  "solver": {
+    "hz": 480,
+    "position_iterations": 64,
+    "self_collision": true,
+    "contacts": true,
+    "linear_damping": 0.1
+  },
+  "action": {
+    "compression": 0.55,
+    "release_s": 2.8,
+    "grip_gap_m": 0.001
+  },
+  "rendering": {
+    "profile": "studio",
+    "width": 1280,
+    "height": 720
+  },
+  "validation": {
+    "penetration_tolerance_m": 0.004,
+    "min_volume_ratio": 0.02
+  }
+}

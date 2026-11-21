@@ -31,6 +31,8 @@ The `experiments/native/gpu-source/` files and material references correspond to
 
 ```sh
 python -B experiments/build_rows.py --material c0 --schedule EveryRound --arch sm_89 --out outputs/rows.ptx
+python -B experiments/build_rows.py --franka-policy sparse --arch sm_89 --out outputs/sparse/rows.ptx
+python -B experiments/build_rows.py --franka-policy dense --arch sm_89 --out outputs/dense/rows.ptx
 ```
 
 For a fresh Franka trial, supply an Isaac Sim `python.sh`, a verified runtime build receipt, and the matching compiled adapter library and PTX. Run the following on Linux with the relevant project assets installed.

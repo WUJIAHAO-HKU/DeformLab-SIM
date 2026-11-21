@@ -1,0 +1,88 @@
+{
+  "config": {
+    "schema_version": 4,
+    "task": "cloth_fold",
+    "seed": 0,
+    "duration_s": 4.0,
+    "material": {
+      "young_pa": 20000.0,
+      "poisson": 0.3,
+      "density": 500.0,
+      "friction": 0.8,
+      "thickness_m": 0.002,
+      "elasticity_damping": 0.05
+    },
+    "geometry": {
+      "size_m": 0.08,
+      "resolution": 8,
+      "cloth_resolution": 20
+    },
+    "solver": {
+      "hz": 480,
+      "position_iterations": 64,
+      "self_collision": true,
+      "contacts": true,
+      "linear_damping": 0.1
+    },
+    "action": {
+      "compression": 0.55,
+      "release_s": 2.8,
+      "grip_gap_m": 0.001
+    },
+    "rendering": {
+      "profile": "studio",
+      "width": 1280,
+      "height": 720
+    },
+    "validation": {
+      "penetration_tolerance_m": 0.004,
+      "min_volume_ratio": 0.02
+    },
+    "fixtures": {
+      "fold_support": true
+    },
+    "motion": {
+      "fold_path": "edge_normal_rotation",
+      "start_s": 0.3,
+      "duration_s": 2.0,
+      "terminal_edge_clearance_m": 0.0024
+    }
+  },
+  "backends": [
+    "cloth-split-envelope-refresh16-transport-control",
+    "cloth-split-envelope-refresh16-edge-query-transport-ablation-contact",
+    "cloth-split-envelope-refresh16-edge-query-transport-contact"
+  ],
+  "gates": {
+    "settled_start_s": 3.0,
+    "inplane_rms_max_m": 0.007,
+    "inplane_p95_max_m": 0.014,
+    "opposed_normals_fraction_min": 0.9,
+    "near_layer_pair_fraction_min": 0.1,
+    "lower_layer_near_support_fraction_min": 0.9,
+    "area_ratio_min": 0.95,
+    "area_ratio_max": 1.05,
+    "support_penetration_max_m": 0.004,
+    "strict_crossing_pairs_limit": 0,
+    "coplanar_overlap_pairs_limit": 0
+  },
+  "scope": "Supported fold with an actual revolute gripper: same trajectory for native, transport ablation and complete repair. Controller improvement alone is not solver improvement.",
+  "timing_eligible": false,
+  "record_every_physics_step": true,
+  "platform_acceptance": false,
+  "causal_reference": "results/supported-fold-constant-radius-v1",
+  "reference_plan_sha256": "fa4437cae9e0b49021d3a29102863fb9583bca595314eb502829f417ca787fa7",
+  "hypothesis": "Rotate the gripper with the material edge to reduce local tail wrapping while retaining physical colliders, original material and folding gates. Independently audit actual rigid pose and attachment tracking.",
+  "original_stress_cases_required": true,
+  "motion_difference": "New real X revolute joint, local attachment rotates with the bar; edge follows the 140 mm circle and stops 2.4 mm above its initial height. Original fixed-orientation schema is unchanged.",
+  "fixture_gates": {
+    "maximum_angular_error_rad": 0.02,
+    "maximum_roll_error_rad": 0.02,
+    "maximum_attachment_error_m": 0.003,
+    "minimum_saved_pose_rigid_clearance_lower_bound_m": 0.0,
+    "strict_positive_clearance": true,
+    "every_endpoint_required": true
+  },
+  "predecessor_failure": "results/supported-fold-rotation-v1/failure-diagnosis.json",
+  "implementation_change": "Initialize fixture positions, velocities and targets by validated authored DOF names, including the new revolute joint. Physical config and gates are identical to v1."
+}

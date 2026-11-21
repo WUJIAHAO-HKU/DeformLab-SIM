@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "task": "robot_volume",
+  "duration_s": 7.5,
+  "material": {
+    "young_pa": 50000.0,
+    "poisson": 0.3,
+    "density": 1000.0,
+    "friction": 0.5,
+    "elasticity_damping": 0.05
+  },
+  "geometry": {
+    "size_m": 0.04,
+    "resolution": 4,
+    "yaw_deg": 0.0,
+    "offset_x_m": 0.0
+  },
+  "solver": {
+    "hz": 960,
+    "position_iterations": 32,
+    "contact_offset_m": 0.001,
+    "speculative_ccd": false,
+    "zero_settling": true,
+    "solver_type": "TGS",
+    "external_forces_every_iteration": true
+  },
+  "action": {
+    "grip_mode": "close",
+    "robot_collision": true,
+    "lift_height_m": 0.1,
+    "lift_profile": "quintic",
+    "hold_arm_target": "feedback"
+  },
+  "measurement": {
+    "finger_wrenches": true
+  },
+  "validation": {
+    "maximum_tabletop_penetration_m": 0.001,
+    "minimum_volume_ratio": 0.001
+  }
+}
