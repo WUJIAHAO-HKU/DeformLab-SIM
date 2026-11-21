@@ -1,0 +1,50 @@
+[
+  {
+    "file": "refresh-r01-trajectories.zip",
+    "bytes": 1096459129,
+    "sha256": "6fa3686911624fb6a75836e9884e02a4511dd2b6a74ccc3835de0dbe6bf91c6a",
+    "files": 240
+  },
+  {
+    "file": "franka-confirmation-trajectories.zip",
+    "bytes": 352945709,
+    "sha256": "ce342e357debdd93e7ae7c3d3331e572037c0b9b94c480ec99817e2a85427ca5",
+    "files": 36
+  },
+  {
+    "file": "refresh-r02-trajectories.zip",
+    "bytes": 1056437266,
+    "sha256": "44050e87d4529a1cd9579b35f50c10cae2a12415317395d357443ed5f3a0b1bf",
+    "files": 240
+  },
+  {
+    "file": "refresh-r03-trajectories.zip",
+    "bytes": 1091644298,
+    "sha256": "5a8da082794e628703e26bf02ee870924a38bcf3e94a6e57ef32521e54e2e609",
+    "files": 240
+  },
+  {
+    "file": "refresh-r04-trajectories.zip",
+    "bytes": 1047409206,
+    "sha256": "e89a39f7587c09f8f9b0e8d4c51b20cfef2a15b6df54b274d1533ebc421a9404",
+    "files": 240
+  },
+  {
+    "file": "refresh-r05-trajectories.zip",
+    "bytes": 1092499201,
+    "sha256": "92dd61d7b994e705fcf1fba61e0e1b1f1c0eb088f5f84ee3b9041dc5813c8eb6",
+    "files": 240
+  },
+  {
+    "file": "refresh-r06-trajectories.zip",
+    "bytes": 1048621150,
+    "sha256": "3f0b08ef1e01d27cb154c2b2afb89313adabeee99b122a78cc1caf7ee2d76d98",
+    "files": 240
+  },
+  {
+    "file": "franka-demonstration-trajectories.zip",
+    "bytes": 178201250,
+    "sha256": "40384706132eeb818455a262cde9f02eafbd4565a61905aac3713931650284cb",
+    "files": 18
+  }
+]

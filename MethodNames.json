@@ -1,0 +1,16 @@
+{
+  "description": "Display names in the paper. Archived raw identifiers remain stable for numerical reproduction.",
+  "display_names": {
+    "A": "Native Solver",
+    "B": "Consistent State Mapping",
+    "D": "DeformLabSim",
+    "Dense": "Full Boundary Contact",
+    "Frozen": "Fixed Contact Set",
+    "Cold": "Response Reset",
+    "Periodic-2": "Contact Refresh Every 2 Rounds",
+    "Periodic-4": "Contact Refresh Every 4 Rounds",
+    "Response": "Response-Guided Refresh",
+    "Pre-final": "Pre-Final Contact Refresh",
+    "VBD": "Newton Vertex Block Descent"
+  }
+}

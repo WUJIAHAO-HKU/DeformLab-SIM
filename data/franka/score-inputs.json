@@ -1,0 +1,2216 @@
+{
+  "C01-B": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.022,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3345194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3835194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C01",
+      "young_pa": 50000,
+      "offset_x_m": -0.0014,
+      "offset_y_m": 0.0006,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "D",
+        "Dense"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 118.66331528127193,
+      "capture_s": 7.055794425308704,
+      "readback_s": 40.24765141308308,
+      "diagnostic_s": 0.007358092814683914,
+      "actuation_physics_s": 71.35251135006547,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 0,
+    "task_result": {
+      "success": false,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": false,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.000879538679469821,
+      "final_minimum_margin_m": -0.003335649663815908,
+      "peak_sampled_rail_penetration_m": 1.3595464492741072e-07,
+      "minimum_lift_support_clearance_m": 0.0635659396648407,
+      "lift_relative_drift_m": 0.0005463850102387369,
+      "carry_m": 0.045765846967697144,
+      "minimum_J": 0.5151545142051375,
+      "settled_speed_p95_m_s": 5.723142749047838e-05,
+      "final_floor_height_error_m": 8.940696716308594e-08,
+      "minimum_hand_to_block_top_m": 0.13658571243286133
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C01-D": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.022,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3345194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3835194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C01",
+      "young_pa": 50000,
+      "offset_x_m": -0.0014,
+      "offset_y_m": 0.0006,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "D",
+        "Dense"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 128.67196499742568,
+      "capture_s": 7.074957184493542,
+      "readback_s": 40.082714011892676,
+      "diagnostic_s": 0.016585445031523705,
+      "actuation_physics_s": 81.49770835600793,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 2126724,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0008507320678056787,
+      "final_minimum_margin_m": 0.0008854817694525022,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.0636986792087555,
+      "lift_relative_drift_m": 0.00040624701068736613,
+      "carry_m": 0.047049641609191895,
+      "minimum_J": 0.7378057319599618,
+      "settled_speed_p95_m_s": 6.207419210113585e-05,
+      "final_floor_height_error_m": 3.2782554626464844e-07,
+      "minimum_hand_to_block_top_m": 0.14393800497055054
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C01-Dense": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.022,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3345194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3835194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C01",
+      "young_pa": 50000,
+      "offset_x_m": -0.0014,
+      "offset_y_m": 0.0006,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "D",
+        "Dense"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 131.45222839154303,
+      "capture_s": 7.631131775677204,
+      "readback_s": 40.101982990279794,
+      "diagnostic_s": 0.01751452125608921,
+      "actuation_physics_s": 83.70159910432994,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 18518864,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0009540120290652778,
+      "final_minimum_margin_m": 0.0007665705031255979,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06383463740348816,
+      "lift_relative_drift_m": 0.00033669176627881825,
+      "carry_m": 0.04708424210548401,
+      "minimum_J": 0.7424838674353607,
+      "settled_speed_p95_m_s": 5.7228444347856566e-05,
+      "final_floor_height_error_m": 3.2782554626464844e-07,
+      "minimum_hand_to_block_top_m": 0.14392852783203125
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C02-B": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C02",
+      "young_pa": 50000,
+      "offset_x_m": 0.0013,
+      "offset_y_m": -0.0007,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "Dense",
+        "B"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 119.07408368773758,
+      "capture_s": 6.779807088896632,
+      "readback_s": 40.42962026782334,
+      "diagnostic_s": 0.007123902440071106,
+      "actuation_physics_s": 71.85753242857754,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 0,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.00221298042190008,
+      "final_minimum_margin_m": 0.00021903579891722688,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06365761160850525,
+      "lift_relative_drift_m": 0.00025808860664255917,
+      "carry_m": 0.04665172100067139,
+      "minimum_J": 0.7620083599856955,
+      "settled_speed_p95_m_s": 0.001328366226516664,
+      "final_floor_height_error_m": 2.47955322265625e-05,
+      "minimum_hand_to_block_top_m": 0.1439039707183838
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C02-D": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C02",
+      "young_pa": 50000,
+      "offset_x_m": 0.0013,
+      "offset_y_m": -0.0007,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "Dense",
+        "B"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 125.5210623294115,
+      "capture_s": 7.402359817177057,
+      "readback_s": 38.62244803644717,
+      "diagnostic_s": 0.016138317063450813,
+      "actuation_physics_s": 79.48011615872383,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 1570066,
+    "task_result": {
+      "success": false,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": false,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.002307131693379411,
+      "final_minimum_margin_m": -0.00429294640361268,
+      "peak_sampled_rail_penetration_m": 1.061523225397154e-07,
+      "minimum_lift_support_clearance_m": 0.06401297450065613,
+      "lift_relative_drift_m": 0.00016697579121682793,
+      "carry_m": 0.047446608543395996,
+      "minimum_J": 0.4535449148874363,
+      "settled_speed_p95_m_s": 8.224414341384545e-05,
+      "final_floor_height_error_m": 7.450580596923828e-07,
+      "minimum_hand_to_block_top_m": 0.13778096437454224
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C02-Dense": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C02",
+      "young_pa": 50000,
+      "offset_x_m": 0.0013,
+      "offset_y_m": -0.0007,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "Dense",
+        "B"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 122.55386510118842,
+      "capture_s": 6.739949557930231,
+      "readback_s": 38.11600646935403,
+      "diagnostic_s": 0.016983365640044212,
+      "actuation_physics_s": 77.68092570826411,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 17917144,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0008525408063229931,
+      "final_minimum_margin_m": 0.0005739019566674934,
+      "peak_sampled_rail_penetration_m": 3.116787472339996e-08,
+      "minimum_lift_support_clearance_m": 0.06403043866157532,
+      "lift_relative_drift_m": 0.00016666794545017183,
+      "carry_m": 0.04745548963546753,
+      "minimum_J": 0.45098971305366853,
+      "settled_speed_p95_m_s": 6.397553079295903e-05,
+      "final_floor_height_error_m": 3.8743019104003906e-07,
+      "minimum_hand_to_block_top_m": 0.14390945434570312
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C03-B": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C03",
+      "young_pa": 50000,
+      "offset_x_m": -0.0006,
+      "offset_y_m": -0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "B",
+        "D"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 105.57358528673649,
+      "capture_s": 5.983520222827792,
+      "readback_s": 35.15887959674001,
+      "diagnostic_s": 0.006869832053780556,
+      "actuation_physics_s": 64.42431563511491,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 0,
+    "task_result": {
+      "success": false,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": false,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.00160290546384299,
+      "final_minimum_margin_m": -5.95563107629489e-05,
+      "peak_sampled_rail_penetration_m": 1.0245495934957903e-06,
+      "minimum_lift_support_clearance_m": 0.06375113129615784,
+      "lift_relative_drift_m": 0.0004626970912795514,
+      "carry_m": 0.04606381058692932,
+      "minimum_J": 0.7353194278876527,
+      "settled_speed_p95_m_s": 0.0008264812058769166,
+      "final_floor_height_error_m": 2.1636486053466797e-05,
+      "minimum_hand_to_block_top_m": 0.143882155418396
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C03-D": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C03",
+      "young_pa": 50000,
+      "offset_x_m": -0.0006,
+      "offset_y_m": -0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "B",
+        "D"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 113.62230354361236,
+      "capture_s": 6.2771021611988544,
+      "readback_s": 35.08182642608881,
+      "diagnostic_s": 0.014759942889213562,
+      "actuation_physics_s": 72.24861501343548,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 2138389,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.00015323274918775296,
+      "final_minimum_margin_m": 0.0011095589941839505,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06343570351600647,
+      "lift_relative_drift_m": 0.00033448022441007197,
+      "carry_m": 0.047165513038635254,
+      "minimum_J": 0.744175350937803,
+      "settled_speed_p95_m_s": 5.72458520764485e-05,
+      "final_floor_height_error_m": 2.682209014892578e-07,
+      "minimum_hand_to_block_top_m": 0.143937349319458
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C03-Dense": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C03",
+      "young_pa": 50000,
+      "offset_x_m": -0.0006,
+      "offset_y_m": -0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "B",
+        "D"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 131.0833722744137,
+      "capture_s": 7.635917251929641,
+      "readback_s": 40.588980017229915,
+      "diagnostic_s": 0.016914617270231247,
+      "actuation_physics_s": 82.84156038798392,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 18421060,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.00010548357412611456,
+      "final_minimum_margin_m": 0.0011737233942846585,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06334784626960754,
+      "lift_relative_drift_m": 0.0003660844231490046,
+      "carry_m": 0.047133952379226685,
+      "minimum_J": 0.7439204853715339,
+      "settled_speed_p95_m_s": 8.10528508736752e-05,
+      "final_floor_height_error_m": 2.980232238769531e-07,
+      "minimum_hand_to_block_top_m": 0.1439250111579895
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C04-B": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.022,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3345194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3835194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C04",
+      "young_pa": 80000,
+      "offset_x_m": 0.0015,
+      "offset_y_m": 0.0005,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "Dense",
+        "D"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 118.08112604357302,
+      "capture_s": 7.0781457014381886,
+      "readback_s": 40.102447712793946,
+      "diagnostic_s": 0.006821352988481522,
+      "actuation_physics_s": 70.8937112763524,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 0,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0016804104053854826,
+      "final_minimum_margin_m": 0.0012874256914953489,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06403747200965881,
+      "lift_relative_drift_m": 0.00021559116430580616,
+      "carry_m": 0.04680255055427551,
+      "minimum_J": 0.7914354716560654,
+      "settled_speed_p95_m_s": 0.0012007160112261772,
+      "final_floor_height_error_m": 2.1666288375854492e-05,
+      "minimum_hand_to_block_top_m": 0.14387249946594238
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C04-D": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.022,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3345194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3835194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C04",
+      "young_pa": 80000,
+      "offset_x_m": 0.0015,
+      "offset_y_m": 0.0005,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "Dense",
+        "D"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 123.35625458694994,
+      "capture_s": 7.110815787687898,
+      "readback_s": 37.36700146086514,
+      "diagnostic_s": 0.014993289485573769,
+      "actuation_physics_s": 78.86344404891133,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 2024034,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0016719013213811217,
+      "final_minimum_margin_m": 0.0001481822186608986,
+      "peak_sampled_rail_penetration_m": 2.5516393447819197e-07,
+      "minimum_lift_support_clearance_m": 0.06413999199867249,
+      "lift_relative_drift_m": 0.00016836974828038365,
+      "carry_m": 0.04746127128601074,
+      "minimum_J": 0.7890811578023935,
+      "settled_speed_p95_m_s": 6.437699630623683e-05,
+      "final_floor_height_error_m": 2.980232238769531e-07,
+      "minimum_hand_to_block_top_m": 0.14389121532440186
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C04-Dense": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.022,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3345194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3835194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.054,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C04",
+      "young_pa": 80000,
+      "offset_x_m": 0.0015,
+      "offset_y_m": 0.0005,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "Dense",
+        "D"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 133.86765476688743,
+      "capture_s": 7.940449129790068,
+      "readback_s": 41.18800993449986,
+      "diagnostic_s": 0.01734444871544838,
+      "actuation_physics_s": 84.72185125388205,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 17877846,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0016587176995945204,
+      "final_minimum_margin_m": 0.00019875675975281754,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06416282057762146,
+      "lift_relative_drift_m": 0.0001738225546432659,
+      "carry_m": 0.04749414324760437,
+      "minimum_J": 0.7944393874486498,
+      "settled_speed_p95_m_s": 6.512346590170637e-05,
+      "final_floor_height_error_m": 2.980232238769531e-07,
+      "minimum_hand_to_block_top_m": 0.1438845992088318
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C05-B": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C05",
+      "young_pa": 80000,
+      "offset_x_m": -0.0011,
+      "offset_y_m": -0.0006,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "B",
+        "Dense"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 114.75918836519122,
+      "capture_s": 7.275461183860898,
+      "readback_s": 37.48666437715292,
+      "diagnostic_s": 0.007185805588960648,
+      "actuation_physics_s": 69.98987699858844,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 0,
+    "task_result": {
+      "success": false,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": false,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0017701078632211883,
+      "final_minimum_margin_m": -0.00476300852955382,
+      "peak_sampled_rail_penetration_m": 1.061523225397154e-07,
+      "minimum_lift_support_clearance_m": 0.06368860602378845,
+      "lift_relative_drift_m": 0.00043776887468993664,
+      "carry_m": 0.04615497589111328,
+      "minimum_J": 0.5014065976913988,
+      "settled_speed_p95_m_s": 0.00037372636143118143,
+      "final_floor_height_error_m": 5.960464477539063e-08,
+      "minimum_hand_to_block_top_m": 0.1367396116256714
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C05-D": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C05",
+      "young_pa": 80000,
+      "offset_x_m": -0.0011,
+      "offset_y_m": -0.0006,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "B",
+        "Dense"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 121.70911615155637,
+      "capture_s": 7.109533427283168,
+      "readback_s": 37.78359775431454,
+      "diagnostic_s": 0.015423785895109177,
+      "actuation_physics_s": 76.80056118406355,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 2085432,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0007324745880797744,
+      "final_minimum_margin_m": 0.0005638486689428616,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.0636453926563263,
+      "lift_relative_drift_m": 0.00030578376026824117,
+      "carry_m": 0.0470806360244751,
+      "minimum_J": 0.7429066966495076,
+      "settled_speed_p95_m_s": 6.416652468033135e-05,
+      "final_floor_height_error_m": 2.980232238769531e-07,
+      "minimum_hand_to_block_top_m": 0.14389699697494507
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C05-Dense": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C05",
+      "young_pa": 80000,
+      "offset_x_m": -0.0011,
+      "offset_y_m": -0.0006,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "B",
+        "Dense"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 124.45693854428828,
+      "capture_s": 7.767780559137464,
+      "readback_s": 37.45677348412573,
+      "diagnostic_s": 0.016673795878887177,
+      "actuation_physics_s": 79.2157107051462,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 18372746,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.0007157818450733009,
+      "final_minimum_margin_m": 0.0005652195757726956,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.0636356770992279,
+      "lift_relative_drift_m": 0.0003088371886406094,
+      "carry_m": 0.04707974195480347,
+      "minimum_J": 0.7429977796758417,
+      "settled_speed_p95_m_s": 6.400430720532313e-05,
+      "final_floor_height_error_m": 3.5762786865234375e-07,
+      "minimum_hand_to_block_top_m": 0.14389556646347046
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C06-B": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C06",
+      "young_pa": 80000,
+      "offset_x_m": 0.0006,
+      "offset_y_m": 0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "D",
+        "B"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 124.16567729972303,
+      "capture_s": 7.143464747816324,
+      "readback_s": 41.98940404318273,
+      "diagnostic_s": 0.007146377116441727,
+      "actuation_physics_s": 75.02566213160753,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 0,
+    "task_result": {
+      "success": false,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": false,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.002150300238483509,
+      "final_minimum_margin_m": -7.505351840455046e-05,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.0639902651309967,
+      "lift_relative_drift_m": 0.00030763293034397066,
+      "carry_m": 0.04676303267478943,
+      "minimum_J": 0.7649881335677197,
+      "settled_speed_p95_m_s": 0.0011757519096136093,
+      "final_floor_height_error_m": 2.3663043975830078e-05,
+      "minimum_hand_to_block_top_m": 0.14387261867523193
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C06-D": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C06",
+      "young_pa": 80000,
+      "offset_x_m": 0.0006,
+      "offset_y_m": 0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "D",
+        "B"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 129.01940251141787,
+      "capture_s": 7.880298933014274,
+      "readback_s": 39.39350249618292,
+      "diagnostic_s": 0.01731586456298828,
+      "actuation_physics_s": 81.72828521765769,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 1998030,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.000997136956033471,
+      "final_minimum_margin_m": 0.00034871560870606763,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06414034962654114,
+      "lift_relative_drift_m": 0.00021849667245987803,
+      "carry_m": 0.0475824773311615,
+      "minimum_J": 0.7970881111023334,
+      "settled_speed_p95_m_s": 8.099623664747924e-05,
+      "final_floor_height_error_m": 2.980232238769531e-07,
+      "minimum_hand_to_block_top_m": 0.14389294385910034
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  },
+  "C06-Dense": {
+    "slot": {
+      "center_xy": [
+        0.3590194185429712,
+        2.7765522525340318e-08
+      ],
+      "half_opening_m": [
+        0.021500000000000002,
+        0.062
+      ],
+      "support_top_m": 0.47026941495778823,
+      "rails": [
+        {
+          "center": [
+            0.3350194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3830194185429712,
+            2.7765522525340318e-08,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.005,
+            0.124,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            -0.06449997223447748,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        },
+        {
+          "center": [
+            0.3590194185429712,
+            0.06450002776552252,
+            0.47426941495778824
+          ],
+          "full_size": [
+            0.053000000000000005,
+            0.005,
+            0.008
+          ]
+        }
+      ]
+    },
+    "case": {
+      "side_m": 0.04,
+      "closed_fraction": 0.3,
+      "id": "C06",
+      "young_pa": 80000,
+      "offset_x_m": 0.0006,
+      "offset_y_m": 0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "D",
+        "B"
+      ]
+    },
+    "control": {
+      "kind": "shared Cartesian reference with native joint feedback",
+      "physics_hz": 960,
+      "control_hz": 240,
+      "rendering_hz": 10,
+      "object_feedback": false,
+      "attachment": false
+    },
+    "timing": {
+      "rollout_s": 121.78016416542232,
+      "capture_s": 6.411741454154253,
+      "readback_s": 37.93407874926925,
+      "diagnostic_s": 0.01590544916689396,
+      "actuation_physics_s": 77.41843851283193,
+      "scope": "matched synchronous rollout; startup and disk export excluded"
+    },
+    "supplemental_row_rounds": 17869320,
+    "task_result": {
+      "success": true,
+      "criteria": {
+        "unsupported_pick": true,
+        "retained_in_gripper": true,
+        "carried_to_slot": true,
+        "whole_object_in_opening": true,
+        "deposited_on_floor": true,
+        "released_and_retreated": true,
+        "stable_after_withdrawal": true,
+        "valid_elements": true,
+        "rail_penetration_below_1mm": true
+      },
+      "final_center_error_m": 0.001016515571376551,
+      "final_minimum_margin_m": 0.00032636386691529615,
+      "peak_sampled_rail_penetration_m": 0.0,
+      "minimum_lift_support_clearance_m": 0.06413516402244568,
+      "lift_relative_drift_m": 0.0001784196647349745,
+      "carry_m": 0.047575920820236206,
+      "minimum_J": 0.7980429208432827,
+      "settled_speed_p95_m_s": 6.44201718387194e-05,
+      "final_floor_height_error_m": 2.384185791015625e-07,
+      "minimum_hand_to_block_top_m": 0.14388692378997803
+    },
+    "block_center_m": [
+      0.3070194185429712,
+      2.7765522525340318e-08,
+      0.49026941495778825
+    ]
+  }
+}

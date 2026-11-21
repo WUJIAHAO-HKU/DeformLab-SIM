@@ -1,0 +1,26 @@
+{
+  "condition": 0,
+  "young_pa": 35000.0,
+  "poisson": 0.3,
+  "hz": 960,
+  "nodes": 2197,
+  "tets": 10368,
+  "boundary_nodes": 866,
+  "rest_float32_sha256": "19f8b4de3ff5cc150c85e3b50683015abdf93548c864d24ec693ce5ef995526a",
+  "topology_uint32_sha256": "a6be3701c98bd54fc3dc3275d432cbadb118f488c830c4f6ee540cfa05e21888",
+  "reference_sha256": "769f24ad960decfeeb3a422da6ae2fb9d5adb26298259dc2e49f6927194ac440",
+  "source_archive": "archive/dev-c0-D-a2.zip",
+  "estimator": "Sum of single-contact, reference-linear-elastic horizontal response envelopes; approximate for native nonlinear coupled contact",
+  "checks": {
+    "rigid_translation_residual": 4.493697740333282e-16,
+    "symmetry_residual": 1.0271309120761785e-16,
+    "linear_solve_max_residual": 5.329070518200751e-15,
+    "single_contact_kkt_residual": 8.8278096760980455e-16,
+    "single_contact_work_relative_error": 6.735084286573827e-16,
+    "minimum_normal_compliance_m_per_n": 0.006513773833055898,
+    "gain_min": 0.08201112198672342,
+    "gain_max": 0.4244475510732628,
+    "gain_median": 0.11641289052268905
+  },
+  "wall_s": 2.8433564000297338
+}

@@ -1,0 +1,200 @@
+{
+  "name": "R02-Periodic4",
+  "arm": "D",
+  "observer": "color",
+  "config": {
+    "schema_version": 1,
+    "task": "soft_squeeze",
+    "seed": 2026111902,
+    "duration_s": 4.4,
+    "material": {
+      "young_pa": 95000.0,
+      "poisson": 0.3,
+      "density": 950.0,
+      "friction": 0.4,
+      "thickness_m": 0.002,
+      "elasticity_damping": 0.0
+    },
+    "geometry": {
+      "size_m": 0.04,
+      "resolution": 12,
+      "cloth_resolution": 20
+    },
+    "solver": {
+      "hz": 960,
+      "position_iterations": 24,
+      "self_collision": false,
+      "contacts": true,
+      "linear_damping": 0.0
+    },
+    "action": {
+      "compression": 0.05,
+      "release_s": 2.8,
+      "grip_gap_m": 0.001
+    },
+    "rendering": {
+      "profile": "studio",
+      "width": 1280,
+      "height": 960
+    },
+    "validation": {
+      "penetration_tolerance_m": 0.004,
+      "min_volume_ratio": 0.02
+    }
+  },
+  "initial_x_offset_m": 0.00105,
+  "component_build": null,
+  "development_smoke": false,
+  "condition": {
+    "name": "event-development-c1",
+    "geometry_y_scale": 1.25,
+    "young_pa": 95000.0,
+    "camera_distance_m": 0.42,
+    "camera": {
+      "position": [
+        0.02,
+        -0.42,
+        0.14
+      ],
+      "target": [
+        0.02,
+        0.0,
+        0.14
+      ],
+      "world_up": [
+        0,
+        0,
+        1
+      ],
+      "quaternion_wxyz": [
+        0.7071067811865475,
+        0.7071067811865475,
+        -0.0,
+        -0.0
+      ],
+      "expected_usd_row_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.02,
+          -0.42,
+          0.14,
+          1.0
+        ]
+      ],
+      "lens": {
+        "width": 1280,
+        "height": 960,
+        "focal_length_mm": 24.0,
+        "horizontal_aperture_mm": 20.955,
+        "vertical_aperture_mm": 15.716249999999999,
+        "horizontal_offset_mm": 0.0,
+        "vertical_offset_mm": 0.0
+      },
+      "calibration": {
+        "width": 1280,
+        "height": 960,
+        "fx": 1465.998568360773,
+        "fy": 1465.998568360773,
+        "cx": 640.0,
+        "cy": 480.0,
+        "camera_to_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.02
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            -0.42
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            0.14
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "geometry_y_scale": 1.25,
+  "random_initialization_seed": 2026111902,
+  "cohort": "contact-cost-v4",
+  "budget_status": "matched24iterations_actual_cost_reported_no_equal_wall_budget_claim",
+  "expected_mesh": {
+    "resolution": 12,
+    "nodes": 2197,
+    "tets": 10368,
+    "boundary_nodes": 866
+  },
+  "gauge_clearance_m": 0.00035,
+  "gauge_development_x_bias_m": 0.0,
+  "gauge_collisions_enabled": true,
+  "backend": "D",
+  "drive_force_cap_n": 1e+30,
+  "external_settings": {
+    "contact_ke": 100000.0,
+    "iterations": 24,
+    "friction_epsilon": 0.0001,
+    "full_surface": false
+  },
+  "comparison_contract": "Prospectively frozen refresh-allocation comparison; shared controller and24 iterations; identical current-state scoring; all outcomes retained; diagnostic CPU traces disabled.",
+  "complete_acquisition": true,
+  "row_diagnostics": false,
+  "learning": {
+    "mode": "demo",
+    "episode_id": "R02-Periodic4",
+    "split_group_id": "R02",
+    "split": "test",
+    "source_backend": "D"
+  },
+  "xy_control": {
+    "observation": "rgbd",
+    "gain_per_s": 4.0,
+    "gate_mode": "shadow",
+    "visual_bound_reserve_m": 5e-05,
+    "gain_xy_per_s": [
+      4.0,
+      12.0
+    ],
+    "action_limit_xy_m": [
+      0.004,
+      0.008
+    ],
+    "observer_estimate": "right_edge_rest_extent"
+  },
+  "method_label": "Periodic4",
+  "diagnostics_enabled": false,
+  "independent_contact_validation": true,
+  "frozen_gauge_clearances_m": [
+    0.00035,
+    0.00045,
+    0.00065
+  ]
+}

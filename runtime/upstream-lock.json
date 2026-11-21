@@ -1,0 +1,12 @@
+{
+  "IsaacSim": {
+    "commit": "7c206f75bdadd9e05fc457f19863ca4c3f0cb693",
+    "tag": "v6.1.0",
+    "lfs_assets_downloaded": false
+  },
+  "newton": {
+    "commit": "cf5378db6002b5c19b86344737cdd40cb8e08f0c",
+    "tag": "v1.5.2",
+    "lfs_assets_downloaded": false
+  }
+}

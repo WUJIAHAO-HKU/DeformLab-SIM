@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "completed": 12,
+  "cases": [
+    {
+      "name": "narrow_soft_far-depth-s202610251-D-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "686bb8d90aceffa33597e50c8191a8d6069305ed8b81e4091eb68355d34e8d29"
+    },
+    {
+      "name": "narrow_soft_far-depth-s202610251-VBD-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "43c3b7927ffa16a9e52eb76079f4f6bc2ac185d8a8313e59d804cb506bb2d586"
+    },
+    {
+      "name": "narrow_soft_far-depth-s202610252-VBD-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "c419dee4d00d190f1d40b24acb3bedb0742baa0036509a3cec6346f3e174931e"
+    },
+    {
+      "name": "narrow_soft_far-depth-s202610252-D-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "92d07c588a5e13d368ab98fc1fb5b862598665a0f6b90518e452834ea0968baa"
+    },
+    {
+      "name": "narrow_soft_far-depth-s202610253-D-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "48a43e31d80e6d25bfbf9f433282c16e517da2cf86691408b5d78a30ea610644"
+    },
+    {
+      "name": "narrow_soft_far-depth-s202610253-VBD-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "0326f0026eb6dbf157699a5d44d3e382382deb7af60d04f2a831ad59f2ebad0c"
+    },
+    {
+      "name": "wide_stiff_near-depth-s202610251-VBD-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "6d07a407c42a341fc55e155672e752c54efa1dbf047ed9501d9ffdb61f9a3bee"
+    },
+    {
+      "name": "wide_stiff_near-depth-s202610251-D-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "fbebca7bb33c2a47446ea732b5ab783aed6b23d80f2402272758384ea9f2edf1"
+    },
+    {
+      "name": "wide_stiff_near-depth-s202610252-D-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "a4cb75711dff194bbddcfe334c8d00b3ecc2135f81b1d1585c3a9d5fb1b9ea36"
+    },
+    {
+      "name": "wide_stiff_near-depth-s202610252-VBD-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "c93cc3e1a423346f145a1254e96e428ebebc18e08f1d27ef275ea09470ed38c5"
+    },
+    {
+      "name": "wide_stiff_near-depth-s202610253-VBD-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "bc92a959acb32468b2af20ce4337e89750e303dde90ba422c6c141df193a83ca"
+    },
+    {
+      "name": "wide_stiff_near-depth-s202610253-D-gap500",
+      "valid": true,
+      "success": true,
+      "timing_valid": true,
+      "case_sha256": "730c45072d8e03169c14d7c0b28a8996c8a6341ac442bed64f9aecdc9f25f9e3"
+    }
+  ],
+  "source_summary_zip_sha256": "3fe270faa30883b6f98fadda0c312ccad12abc23bd60abb54290a80cde654cce",
+  "ray_scope": "Active control frames only; inactive gauge-occluded images are not claimed to identify only the soft object.",
+  "graph_parity": "Full fixed-command replay fails the 1um gate, preserved separately; no graph/plain equivalence claim."
+}

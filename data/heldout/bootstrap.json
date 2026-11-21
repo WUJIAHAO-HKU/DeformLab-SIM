@@ -1,0 +1,74 @@
+{
+  "seed": 20261031,
+  "replicates": 200000,
+  "methods": {
+    "B": {
+      "n": 6,
+      "successes": 0,
+      "success_rate": 0.0,
+      "bootstrap_95_ci_success_rate": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "D": {
+      "n": 6,
+      "successes": 5,
+      "success_rate": 0.8333333333333334,
+      "bootstrap_95_ci_success_rate": [
+        0.5,
+        0.8333333333333334,
+        1.0
+      ]
+    },
+    "Dense": {
+      "n": 6,
+      "successes": 5,
+      "success_rate": 0.8333333333333334,
+      "bootstrap_95_ci_success_rate": [
+        0.5,
+        0.8333333333333334,
+        1.0
+      ]
+    },
+    "Periodic-2": {
+      "n": 6,
+      "successes": 5,
+      "success_rate": 0.8333333333333334,
+      "bootstrap_95_ci_success_rate": [
+        0.5,
+        0.8333333333333334,
+        1.0
+      ]
+    },
+    "Periodic-4": {
+      "n": 6,
+      "successes": 6,
+      "success_rate": 1.0,
+      "bootstrap_95_ci_success_rate": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "D_vs_Dense_paired_saving_fraction": {
+    "n": 6,
+    "mean": 0.09021790380239338,
+    "median": 0.1019477154513091,
+    "bootstrap_95_ci": [
+      0.03473272187156771,
+      0.09021790380239338,
+      0.14293790365307926
+    ],
+    "paired_values": [
+      -0.012214675659113938,
+      0.02342941733674153,
+      0.08432452045706917,
+      0.13728642041293737,
+      0.18891082982117713,
+      0.11957091044554902
+    ]
+  }
+}

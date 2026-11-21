@@ -1,0 +1,4 @@
+# Offline analysis only; do not install into the official Kit environment.
+# Validated with project Python 3.12.
+numpy==2.2.6
+scipy==1.18.1

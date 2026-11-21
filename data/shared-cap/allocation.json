@@ -1,0 +1,18 @@
+{
+  "allocation": {
+    "D": 16,
+    "cold": 16,
+    "dense": 16,
+    "VBD": 96
+  },
+  "initial": {
+    "D": 16,
+    "cold": 16,
+    "dense": 16,
+    "VBD": 96
+  },
+  "common_cap_s": 60.0,
+  "target_s": 54.0,
+  "confirmation_overruns": [],
+  "rule": "At most one proportional reduction based solely on confirmation elapsed time; no held-out tuning."
+}

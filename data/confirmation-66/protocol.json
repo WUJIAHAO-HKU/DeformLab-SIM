@@ -1,0 +1,355 @@
+{
+  "name": "ral-priority-validation-20261119",
+  "frozen_before_new_measurements": true,
+  "refresh": {
+    "planned": 30,
+    "cells": [
+      {
+        "id": "R01",
+        "condition": 0,
+        "offset_m": -0.00115,
+        "clearance_m": 0.00035,
+        "seed": 2026111901,
+        "order": [
+          "EveryRound",
+          "Periodic4",
+          "ResponseGuided",
+          "WithoutMaterial",
+          "WithoutPreFinal"
+        ]
+      },
+      {
+        "id": "R02",
+        "condition": 1,
+        "offset_m": 0.00105,
+        "clearance_m": 0.00035,
+        "seed": 2026111902,
+        "order": [
+          "Periodic4",
+          "ResponseGuided",
+          "WithoutMaterial",
+          "WithoutPreFinal",
+          "EveryRound"
+        ]
+      },
+      {
+        "id": "R03",
+        "condition": 0,
+        "offset_m": 0.00125,
+        "clearance_m": 0.00065,
+        "seed": 2026111903,
+        "order": [
+          "ResponseGuided",
+          "WithoutMaterial",
+          "WithoutPreFinal",
+          "EveryRound",
+          "Periodic4"
+        ]
+      },
+      {
+        "id": "R04",
+        "condition": 1,
+        "offset_m": -0.00125,
+        "clearance_m": 0.00065,
+        "seed": 2026111904,
+        "order": [
+          "WithoutMaterial",
+          "WithoutPreFinal",
+          "EveryRound",
+          "Periodic4",
+          "ResponseGuided"
+        ]
+      },
+      {
+        "id": "R05",
+        "condition": 0,
+        "offset_m": -0.00145,
+        "clearance_m": 0.00045,
+        "seed": 2026111905,
+        "order": [
+          "WithoutPreFinal",
+          "EveryRound",
+          "Periodic4",
+          "ResponseGuided",
+          "WithoutMaterial"
+        ]
+      },
+      {
+        "id": "R06",
+        "condition": 1,
+        "offset_m": 0.00145,
+        "clearance_m": 0.00045,
+        "seed": 2026111906,
+        "order": [
+          "EveryRound",
+          "Periodic4",
+          "ResponseGuided",
+          "WithoutMaterial",
+          "WithoutPreFinal"
+        ]
+      }
+    ],
+    "methods": [
+      {
+        "id": "EveryRound",
+        "name": "Selective Contact - Every-Round Search",
+        "mode": 0,
+        "disable_material": 0,
+        "disable_prefinal": 0
+      },
+      {
+        "id": "Periodic4",
+        "name": "Contact Refresh Every 4 Rounds",
+        "mode": 1,
+        "disable_material": 0,
+        "disable_prefinal": 0
+      },
+      {
+        "id": "ResponseGuided",
+        "name": "Response-Guided Contact Refresh",
+        "mode": 7,
+        "disable_material": 0,
+        "disable_prefinal": 0
+      },
+      {
+        "id": "WithoutMaterial",
+        "name": "Response-Guided Refresh Without Material Signal",
+        "mode": 7,
+        "disable_material": 1,
+        "disable_prefinal": 0
+      },
+      {
+        "id": "WithoutPreFinal",
+        "name": "Response-Guided Refresh Without Pre-Final Check",
+        "mode": 7,
+        "disable_material": 0,
+        "disable_prefinal": 1
+      }
+    ],
+    "primary": [
+      "full task success",
+      "final minimum clearance",
+      "peak support and gauge penetration",
+      "minimum element Jacobian",
+      "refresh count",
+      "loop time",
+      "launch-through-validation wall time"
+    ],
+    "fixed": [
+      "35/95 kPa reference response",
+      "2197 nodes",
+      "960 Hz",
+      "24 iterations",
+      "4.4 s",
+      "shared RGB-D controller",
+      "5 micrometer trigger budget",
+      "maximum four-round refresh age"
+    ],
+    "diagnostics": "No per-round CPU trace or passive per-step publication scan; cumulative counters copied once after timed loop",
+    "preflight_planned": 5
+  },
+  "franka": {
+    "planned": 36,
+    "cells": [
+      {
+        "id": "F01",
+        "young_pa": 35000,
+        "offset_x_m": -0.0009,
+        "offset_y_m": 0.0008,
+        "opening_extra_m": 0.0035,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "B",
+          "D",
+          "Dense"
+        ]
+      },
+      {
+        "id": "F02",
+        "young_pa": 35000,
+        "offset_x_m": 0.0011,
+        "offset_y_m": -0.0009,
+        "opening_extra_m": 0.0045,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "D",
+          "Dense",
+          "B"
+        ]
+      },
+      {
+        "id": "F03",
+        "young_pa": 65000,
+        "offset_x_m": -0.0012,
+        "offset_y_m": -0.0007,
+        "opening_extra_m": 0.0035,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "Dense",
+          "B",
+          "D"
+        ]
+      },
+      {
+        "id": "F04",
+        "young_pa": 65000,
+        "offset_x_m": 0.0008,
+        "offset_y_m": 0.0012,
+        "opening_extra_m": 0.0045,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "B",
+          "Dense",
+          "D"
+        ]
+      },
+      {
+        "id": "F05",
+        "young_pa": 95000,
+        "offset_x_m": -0.0007,
+        "offset_y_m": 0.0011,
+        "opening_extra_m": 0.0035,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "D",
+          "B",
+          "Dense"
+        ]
+      },
+      {
+        "id": "F06",
+        "young_pa": 95000,
+        "offset_x_m": 0.0012,
+        "offset_y_m": -0.0011,
+        "opening_extra_m": 0.0045,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "Dense",
+          "D",
+          "B"
+        ]
+      },
+      {
+        "id": "F07",
+        "young_pa": 50000,
+        "offset_x_m": -0.001,
+        "offset_y_m": 0.0009,
+        "opening_extra_m": 0.0025,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "B",
+          "D",
+          "Dense"
+        ]
+      },
+      {
+        "id": "F08",
+        "young_pa": 50000,
+        "offset_x_m": 0.0009,
+        "offset_y_m": -0.0012,
+        "opening_extra_m": 0.0035,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "D",
+          "Dense",
+          "B"
+        ]
+      },
+      {
+        "id": "F09",
+        "young_pa": 80000,
+        "offset_x_m": -0.0008,
+        "offset_y_m": -0.0011,
+        "opening_extra_m": 0.0025,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "Dense",
+          "B",
+          "D"
+        ]
+      },
+      {
+        "id": "F10",
+        "young_pa": 80000,
+        "offset_x_m": 0.0011,
+        "offset_y_m": 0.0008,
+        "opening_extra_m": 0.0035,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "B",
+          "Dense",
+          "D"
+        ]
+      },
+      {
+        "id": "F11",
+        "young_pa": 35000,
+        "offset_x_m": -0.0013,
+        "offset_y_m": -0.0008,
+        "opening_extra_m": 0.0045,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "D",
+          "B",
+          "Dense"
+        ]
+      },
+      {
+        "id": "F12",
+        "young_pa": 95000,
+        "offset_x_m": 0.0007,
+        "offset_y_m": 0.0013,
+        "opening_extra_m": 0.0045,
+        "side_m": 0.04,
+        "closed_fraction": 0.3,
+        "order": [
+          "Dense",
+          "D",
+          "B"
+        ]
+      }
+    ],
+    "methods": {
+      "B": "Consistent State Mapping",
+      "D": "DeformLabSim",
+      "Dense": "Full Boundary Contact"
+    },
+    "primary": [
+      "zero-overflow full-task success",
+      "center error",
+      "minimum final clearance",
+      "wall-clock loop time"
+    ],
+    "secondary": [
+      "0.10 mm overflow-tolerance rescoring",
+      "contact constraint evaluations",
+      "stability"
+    ],
+    "fixed": [
+      "unchanged joint-feedback Cartesian controller",
+      "960 Hz",
+      "32 iterations",
+      "10 s",
+      "same camera and101 recorded frames",
+      "same mesh and40 mm size",
+      "no object attachment"
+    ]
+  },
+  "original_protocol_sha256": "9d180f97192038491377c056148fd55f200a420cd21b3bd2efe923c49beb974c",
+  "bootstrap": {
+    "seed": 20261119,
+    "draws": 100000,
+    "resampling_unit": "paired physical input cell"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source": "archived six-cell compression reference",
+  "aggregate_numbers": {
+    "D960_force_shape_percent": 5.7,
+    "D960_bottom_penetration_um": 0.554,
+    "D960_upper_press_penetration_um": 107.0,
+    "quasistatic_joint_gate_passes": 0,
+    "planned_cells": 6
+  }
+}

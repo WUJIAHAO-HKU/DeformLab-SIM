@@ -1,0 +1,18 @@
+[package]
+version = "0.1.0"
+title = "Deformable Lab"
+description = "Native Isaac Sim deformable scenes, material controls and measured node diagnostics."
+category = "Simulation"
+
+[dependencies]
+"omni.ui" = {}
+"omni.usd" = {}
+"omni.kit.window.file" = {}
+"omni.kit.viewport.utility" = {}
+"isaacsim.core.experimental.prims" = {}
+"isaacsim.core.experimental.materials" = {}
+"isaacsim.core.simulation_manager" = {}
+"isaacsim.core.rendering_manager" = {}
+
+[[python.module]]
+name = "deformable.benchmarks"

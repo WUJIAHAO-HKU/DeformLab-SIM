@@ -1,0 +1,104 @@
+{
+  "input_sha256": "2030522733380071fa8809a8748b4bf129224ae9366b420093b1c66d7039831d",
+  "all_runs": 16,
+  "points": [
+    {
+      "case": "r0-B-x-12mm",
+      "arm": "B",
+      "peak_um": 310.40236353874207,
+      "row_rounds_percent_dense": 0.0
+    },
+    {
+      "case": "r1-B-x-12mm",
+      "arm": "B",
+      "peak_um": 336.9562327861786,
+      "row_rounds_percent_dense": 0.0
+    },
+    {
+      "case": "r0-B-x+12mm",
+      "arm": "B",
+      "peak_um": 653.9933383464813,
+      "row_rounds_percent_dense": 0.0
+    },
+    {
+      "case": "r1-B-x+12mm",
+      "arm": "B",
+      "peak_um": 691.290944814682,
+      "row_rounds_percent_dense": 0.0
+    },
+    {
+      "case": "r0-D-x-12mm",
+      "arm": "D",
+      "peak_um": 1.0021030902862549,
+      "row_rounds_percent_dense": 12.31571742243901
+    },
+    {
+      "case": "r1-D-x-12mm",
+      "arm": "D",
+      "peak_um": 1.821666955947876,
+      "row_rounds_percent_dense": 12.20236338025793
+    },
+    {
+      "case": "r0-D-x+12mm",
+      "arm": "D",
+      "peak_um": 2.5816261768341064,
+      "row_rounds_percent_dense": 12.79335209919341
+    },
+    {
+      "case": "r1-D-x+12mm",
+      "arm": "D",
+      "peak_um": 2.514570951461792,
+      "row_rounds_percent_dense": 12.786736963908831
+    },
+    {
+      "case": "r0-dense-x-12mm",
+      "arm": "dense",
+      "peak_um": 1.2926757335662842,
+      "row_rounds_percent_dense": 100.0
+    },
+    {
+      "case": "r1-dense-x-12mm",
+      "arm": "dense",
+      "peak_um": 1.650303602218628,
+      "row_rounds_percent_dense": 100.0
+    },
+    {
+      "case": "r0-dense-x+12mm",
+      "arm": "dense",
+      "peak_um": 4.429370164871216,
+      "row_rounds_percent_dense": 100.0
+    },
+    {
+      "case": "r1-dense-x+12mm",
+      "arm": "dense",
+      "peak_um": 2.5443732738494873,
+      "row_rounds_percent_dense": 100.0
+    },
+    {
+      "case": "r0-frozen_first-x-12mm",
+      "arm": "frozen_first",
+      "peak_um": 229.89138960838318,
+      "row_rounds_percent_dense": 11.028018975968799
+    },
+    {
+      "case": "r1-frozen_first-x-12mm",
+      "arm": "frozen_first",
+      "peak_um": 275.41443705558777,
+      "row_rounds_percent_dense": 10.99561038325704
+    },
+    {
+      "case": "r0-frozen_first-x+12mm",
+      "arm": "frozen_first",
+      "peak_um": 505.31700253486633,
+      "row_rounds_percent_dense": 10.45124032421644
+    },
+    {
+      "case": "r1-frozen_first-x+12mm",
+      "arm": "frozen_first",
+      "peak_um": 451.09912753105164,
+      "row_rounds_percent_dense": 10.563736075686336
+    }
+  ],
+  "normalization": "Each supplemental count divided by the corresponding Dense count with the same mirrored load and technical repeat.",
+  "original_results_modified": false
+}

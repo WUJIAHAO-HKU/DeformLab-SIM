@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+.cache/
+.env
+.env.*
+*.key
+*.pem
+downloads/
+outputs/
+results/
+*.ptx
+*.so
+*.log

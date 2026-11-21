@@ -1,0 +1,381 @@
+{
+  "completed_formal": 66,
+  "grouped": [
+    {
+      "study": "franka",
+      "method": "Consistent State Mapping",
+      "executed": 12,
+      "valid": 12,
+      "success": 5,
+      "success_fraction": 0.4166666666666667,
+      "wilson95": [
+        0.19326031365875665,
+        0.6804886874504503
+      ],
+      "center_error_mm_median": 1.8497942233127156,
+      "final_minimum_clearance_um_median": -55.630868067332514,
+      "minimum_J_median": 0.7394486808809575,
+      "loop_s_median": 114.023242989555
+    },
+    {
+      "study": "franka",
+      "method": "DeformLabSim",
+      "executed": 12,
+      "valid": 12,
+      "success": 12,
+      "success_fraction": 1.0,
+      "wilson95": [
+        0.7575059933447592,
+        1.0
+      ],
+      "center_error_mm_median": 0.8666568382683917,
+      "final_minimum_clearance_um_median": 713.0206823349004,
+      "minimum_J_median": 0.7706391607214301,
+      "loop_s_median": 122.94751078169793
+    },
+    {
+      "study": "franka",
+      "method": "Full Boundary Contact",
+      "executed": 12,
+      "valid": 12,
+      "success": 12,
+      "success_fraction": 1.0,
+      "wilson95": [
+        0.7575059933447592,
+        1.0
+      ],
+      "center_error_mm_median": 0.9073742527702398,
+      "final_minimum_clearance_um_median": 730.5891513824467,
+      "minimum_J_median": 0.7686663492078023,
+      "loop_s_median": 125.00330757163465
+    },
+    {
+      "study": "refresh",
+      "method": "Selective Contact - Every-Round Search",
+      "executed": 6,
+      "valid": 6,
+      "success": 6,
+      "success_fraction": 1.0,
+      "wilson95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "final_minimum_clearance_um_median": 375.9390518069273,
+      "minimum_J_median": 0.9602546464787541,
+      "support_penetration_um_median": 7.9534947872161865,
+      "gauge_penetration_um_median": 0.0,
+      "loop_s_median": 97.20669350307435,
+      "data_ready_s_median": 202.72933922801167,
+      "refresh_fraction_median": 1.0
+    },
+    {
+      "study": "refresh",
+      "method": "Contact Refresh Every 4 Rounds",
+      "executed": 6,
+      "valid": 6,
+      "success": 6,
+      "success_fraction": 1.0,
+      "wilson95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "final_minimum_clearance_um_median": 366.00183993578014,
+      "minimum_J_median": 0.9595838965065768,
+      "support_penetration_um_median": 8.042901754379272,
+      "gauge_penetration_um_median": 0.0,
+      "loop_s_median": 97.90433687157929,
+      "data_ready_s_median": 205.65696388110518,
+      "refresh_fraction_median": 0.28
+    },
+    {
+      "study": "refresh",
+      "method": "Response-Guided Contact Refresh",
+      "executed": 6,
+      "valid": 6,
+      "success": 6,
+      "success_fraction": 1.0,
+      "wilson95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "final_minimum_clearance_um_median": 354.6406358480459,
+      "minimum_J_median": 0.9581167001640747,
+      "support_penetration_um_median": 8.087605237960815,
+      "gauge_penetration_um_median": 0.0,
+      "loop_s_median": 99.33297413960099,
+      "data_ready_s_median": 206.31887611187994,
+      "refresh_fraction_median": 0.28547821969696974
+    },
+    {
+      "study": "refresh",
+      "method": "Response-Guided Refresh Without Material Signal",
+      "executed": 6,
+      "valid": 6,
+      "success": 6,
+      "success_fraction": 1.0,
+      "wilson95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "final_minimum_clearance_um_median": 361.0770061612135,
+      "minimum_J_median": 0.959655701686612,
+      "support_penetration_um_median": 7.9087913036346436,
+      "gauge_penetration_um_median": 0.0,
+      "loop_s_median": 97.32253110501915,
+      "data_ready_s_median": 200.87699397839606,
+      "refresh_fraction_median": 0.28398200757575753
+    },
+    {
+      "study": "refresh",
+      "method": "Response-Guided Refresh Without Pre-Final Check",
+      "executed": 6,
+      "valid": 6,
+      "success": 6,
+      "success_fraction": 1.0,
+      "wilson95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "final_minimum_clearance_um_median": 268.260212242603,
+      "minimum_J_median": 0.9602911167810206,
+      "support_penetration_um_median": 7.811933755874634,
+      "gauge_penetration_um_median": 0.0,
+      "loop_s_median": 97.44489741977304,
+      "data_ready_s_median": 203.11837050132453,
+      "refresh_fraction_median": 0.2800520833333333
+    }
+  ],
+  "paired": [
+    {
+      "study": "refresh",
+      "first": "Response-Guided Contact Refresh",
+      "reference": "Selective Contact - Every-Round Search",
+      "paired_n": 6,
+      "first_only_success": 0,
+      "reference_only_success": 0,
+      "both_success": 6,
+      "both_fail": 0,
+      "exact_two_sided_discordance_p": 1.0,
+      "loop_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.018974256261593547,
+        "median": -0.014544903563331824,
+        "percentile95": [
+          -0.04074468768568784,
+          0.0013804943775296656
+        ],
+        "unit": "fraction"
+      },
+      "data_ready_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.023120119680890356,
+        "median": -0.03500539713800066,
+        "percentile95": [
+          -0.07658389743995109,
+          0.03859247151514791
+        ],
+        "unit": "fraction"
+      },
+      "paired_final_clearance_difference_um": [
+        7.160007953643799,
+        -110.93541979789732,
+        1.4957040548324585,
+        -25.86469054222107,
+        -16.732141375541687,
+        -32.88686275482178
+      ]
+    },
+    {
+      "study": "refresh",
+      "first": "Response-Guided Contact Refresh",
+      "reference": "Contact Refresh Every 4 Rounds",
+      "paired_n": 6,
+      "first_only_success": 0,
+      "reference_only_success": 0,
+      "both_success": 6,
+      "both_fail": 0,
+      "exact_two_sided_discordance_p": 1.0,
+      "loop_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.008763139719392151,
+        "median": -0.015076973889183387,
+        "percentile95": [
+          -0.028133377990049075,
+          0.011436492330870018
+        ],
+        "unit": "fraction"
+      },
+      "data_ready_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.014104823578061884,
+        "median": -0.0018377638222079051,
+        "percentile95": [
+          -0.04827965004053841,
+          0.007446172746248425
+        ],
+        "unit": "fraction"
+      },
+      "paired_final_clearance_difference_um": [
+        0.35390257835388184,
+        1.4118850231170654,
+        21.54521644115448,
+        -17.90747046470642,
+        -4.814937710762024,
+        -16.495585441589355
+      ]
+    },
+    {
+      "study": "refresh",
+      "first": "Response-Guided Contact Refresh",
+      "reference": "Response-Guided Refresh Without Material Signal",
+      "paired_n": 6,
+      "first_only_success": 0,
+      "reference_only_success": 0,
+      "both_success": 6,
+      "both_fail": 0,
+      "exact_two_sided_discordance_p": 1.0,
+      "loop_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.018896959649997064,
+        "median": -0.017914154387528858,
+        "percentile95": [
+          -0.03482312383740523,
+          -0.002858202007629873
+        ],
+        "unit": "fraction"
+      },
+      "data_ready_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.029881580761566884,
+        "median": -0.02775125552247326,
+        "percentile95": [
+          -0.058776149181806736,
+          -0.005539619775778474
+        ],
+        "unit": "fraction"
+      },
+      "paired_final_clearance_difference_um": [
+        -7.539987564086914,
+        -14.681369066238389,
+        -40.732769668101696,
+        1.080334186553955,
+        -13.9530748128891,
+        -25.492161512374878
+      ]
+    },
+    {
+      "study": "refresh",
+      "first": "Response-Guided Contact Refresh",
+      "reference": "Response-Guided Refresh Without Pre-Final Check",
+      "paired_n": 6,
+      "first_only_success": 0,
+      "reference_only_success": 0,
+      "both_success": 6,
+      "both_fail": 0,
+      "exact_two_sided_discordance_p": 1.0,
+      "loop_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.011821634242260884,
+        "median": -0.015487683145231412,
+        "percentile95": [
+          -0.03842854358033876,
+          0.017359644977088362
+        ],
+        "unit": "fraction"
+      },
+      "data_ready_s_relative_reduction": {
+        "paired_n": 6,
+        "mean": -0.03547008873248769,
+        "median": -0.02929641231128588,
+        "percentile95": [
+          -0.07835052779320906,
+          0.006662318185507073
+        ],
+        "unit": "fraction"
+      },
+      "paired_final_clearance_difference_um": [
+        3.0547380447387695,
+        3.7066638469696045,
+        358.0586254596716,
+        0.14528632164001465,
+        11.203810572624207,
+        -4.608184099197388
+      ]
+    },
+    {
+      "study": "franka",
+      "first": "DeformLabSim",
+      "reference": "Consistent State Mapping",
+      "paired_n": 12,
+      "first_only_success": 7,
+      "reference_only_success": 0,
+      "both_success": 5,
+      "both_fail": 0,
+      "exact_two_sided_discordance_p": 0.015625,
+      "loop_s_relative_reduction": {
+        "paired_n": 11,
+        "mean": -0.0650562630137668,
+        "median": -0.07773741536985157,
+        "percentile95": [
+          -0.08780217380683547,
+          -0.03508092503028947
+        ],
+        "unit": "fraction"
+      },
+      "paired_final_clearance_difference_um": [
+        5774.0112436016625,
+        719.080339650291,
+        5125.572313090188,
+        39.08074973024702,
+        1199.6030807495117,
+        -614.3947732647482,
+        5949.308503886086,
+        109.14600966371864,
+        5939.4141328533715,
+        -411.02372529111534,
+        4797.329534312112,
+        197.80791876711226
+      ]
+    },
+    {
+      "study": "franka",
+      "first": "DeformLabSim",
+      "reference": "Full Boundary Contact",
+      "paired_n": 12,
+      "first_only_success": 0,
+      "reference_only_success": 0,
+      "both_success": 12,
+      "both_fail": 0,
+      "exact_two_sided_discordance_p": 1.0,
+      "loop_s_relative_reduction": {
+        "paired_n": 10,
+        "mean": 0.018553249726329657,
+        "median": 0.008213955656563743,
+        "percentile95": [
+          0.0013255484047211218,
+          0.042712915679121444
+        ],
+        "unit": "fraction"
+      },
+      "paired_final_clearance_difference_um": [
+        -100.4636287689209,
+        -66.36977195739746,
+        3.7848949432373047,
+        -121.4444637298584,
+        0.7450580596923828,
+        -38.92183303833008,
+        -25.74920654296875,
+        -32.454729080200195,
+        23.00739288330078,
+        -24.91474151611328,
+        31.054019927978516,
+        30.040740966796875
+      ]
+    }
+  ],
+  "bootstrap": {
+    "seed": 20261119,
+    "draws": 100000,
+    "resampling_unit": "paired physical input cell"
+  }
+}

@@ -1,0 +1,16 @@
+item,number,paper_page,evidence,archive_path,reproduction
+Figure,1,1,Conceptual platform artwork,code/provenance/illustration-prompts.json,Not a measured panel
+Figure,2,2,Runtime architecture schematic,code/contact/,See method definition
+Figure,3,4,Recorded tasks and actual node selection,data/admissions/,python -B code/reproduce.py --study admissions
+Figure,4,5,36 independent full-arm scoring trajectories; 12 paired conditions,data/confirmation-66/,python -B code/reproduce.py --study franka_confirmation
+Figure,5,5,72 pusher-gauge outcomes,data/gauge/72-runs.json,python -B code/reproduce.py --study gauge
+Figure,6,6,16 eccentric-load executions,data/discovery/16-runs.json,python -B code/reproduce.py --study discovery
+Table,I,6,48 shared-cap outcomes,data/shared-cap/48-runs.json,python -B code/reproduce.py --study shared_cap
+Table,II,6,Independent loaded-shape comparison,data/physics/loaded-shape-table.json,python -B code/reproduce.py --study reported_shape
+Figure,7,7,18 physical pairs; 17 timing-eligible pairs,data/scaling/frozen-summary.json,python -B code/reproduce.py --study scaling
+Table,III,7,30 independent quality-cost executions and six cost pairs,data/heldout/,python -B code/reproduce.py --study heldout
+Figure,8,7,30 independent search-schedule executions; six paired conditions,data/confirmation-66/,python -B code/reproduce.py --study refresh_confirmation
+Video cohort,C01-C06,,Original 18-run six-start demonstration; separate from independent confirmation,data/franka/,python -B code/reproduce.py --study franka
+Sensitivity,Independent Franka,5,Rescore all 36 independent trajectories at fixed clearance tolerances,data/confirmation-66/franka-trajectories/,python -B code/reproduce.py --study franka_confirmation
+Text result,Continuous placement,5,36 visual placement and regrasp trials,data/placement/,python -B code/reproduce.py --study continuous_placement
+Text result,Thickness control,5,36 compression trials spanning observer and bias settings,data/thickness/,python -B code/reproduce.py --study thickness_control

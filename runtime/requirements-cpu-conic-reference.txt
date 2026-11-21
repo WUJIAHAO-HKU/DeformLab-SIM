@@ -1,0 +1,2 @@
+# Optional CPU diagnostic dependency; not a native simulation backend.
+clarabel==0.11.1

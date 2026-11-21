@@ -1,0 +1,102 @@
+{
+  "fps": 24,
+  "chapters": [
+    {
+      "title": "Opening title",
+      "start_frame": 0,
+      "start_s": 0.0,
+      "frames": 72
+    },
+    {
+      "title": "Franka C01",
+      "start_frame": 72,
+      "start_s": 3.0,
+      "frames": 286,
+      "cohort": "Original six-start demonstration, 18 executions; separate from the 36-run independent confirmation."
+    },
+    {
+      "title": "Franka C02",
+      "start_frame": 358,
+      "start_s": 14.917,
+      "frames": 286,
+      "cohort": "Original six-start demonstration, 18 executions; separate from the 36-run independent confirmation."
+    },
+    {
+      "title": "Franka C03",
+      "start_frame": 644,
+      "start_s": 26.833,
+      "frames": 286,
+      "cohort": "Original six-start demonstration, 18 executions; separate from the 36-run independent confirmation."
+    },
+    {
+      "title": "Franka C04",
+      "start_frame": 930,
+      "start_s": 38.75,
+      "frames": 286,
+      "cohort": "Original six-start demonstration, 18 executions; separate from the 36-run independent confirmation."
+    },
+    {
+      "title": "Franka C05",
+      "start_frame": 1216,
+      "start_s": 50.667,
+      "frames": 286,
+      "cohort": "Original six-start demonstration, 18 executions; separate from the 36-run independent confirmation."
+    },
+    {
+      "title": "Franka C06",
+      "start_frame": 1502,
+      "start_s": 62.583,
+      "frames": 286,
+      "cohort": "Original six-start demonstration, 18 executions; separate from the 36-run independent confirmation."
+    },
+    {
+      "title": "Independent Franka confirmation and original-demo cohort key",
+      "start_frame": 1788,
+      "start_s": 74.5,
+      "frames": 120,
+      "cohort": "New 36-run numerical confirmation; original 18-run footage shown in preceding clips."
+    },
+    {
+      "title": "G1 and Shadow Hand / sponge",
+      "start_frame": 1908,
+      "start_s": 79.5,
+      "frames": 541
+    },
+    {
+      "title": "Cloth / synchronized RGB and depth",
+      "start_frame": 2449,
+      "start_s": 102.042,
+      "frames": 240
+    },
+    {
+      "title": "Cloth / normal-buffer frame",
+      "start_frame": 2689,
+      "start_s": 112.042,
+      "frames": 72
+    },
+    {
+      "title": "Pusher-gauge RGB-D bench",
+      "start_frame": 2761,
+      "start_s": 115.042,
+      "frames": 108
+    },
+    {
+      "title": "Contact mechanism / admission work",
+      "start_frame": 2869,
+      "start_s": 119.542,
+      "frames": 144
+    },
+    {
+      "title": "Quality and cost / scale",
+      "start_frame": 3013,
+      "start_s": 125.542,
+      "frames": 168
+    },
+    {
+      "title": "Quality and cost / operating frontier",
+      "start_frame": 3181,
+      "start_s": 132.542,
+      "frames": 168
+    }
+  ]
+}

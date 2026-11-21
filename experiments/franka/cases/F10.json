@@ -1,0 +1,14 @@
+{
+  "id": "F10",
+  "young_pa": 80000,
+  "offset_x_m": 0.0011,
+  "offset_y_m": 0.0008,
+  "opening_extra_m": 0.0035,
+  "side_m": 0.04,
+  "closed_fraction": 0.3,
+  "order": [
+    "B",
+    "Dense",
+    "D"
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "primary": "bulk material-face thickness MAE over [1.6,2.0] seconds to 0.038m",
+  "groups": [
+    {
+      "observer": "color",
+      "hidden_bias_m": -0.0005,
+      "arm": "B",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.00018805175710033968,
+        0.00018077538462428212
+      ],
+      "median_m": 0.0001844135708623109,
+      "min_m": 0.00018077538462428212,
+      "max_m": 0.00018805175710033968
+    },
+    {
+      "observer": "color",
+      "hidden_bias_m": -0.0005,
+      "arm": "D",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.0003908995033858649,
+        0.00016377910081442207
+      ],
+      "median_m": 0.0002773393021001435,
+      "min_m": 0.00016377910081442207,
+      "max_m": 0.0003908995033858649
+    },
+    {
+      "observer": "color",
+      "hidden_bias_m": -0.0005,
+      "arm": "dense",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.0002641296355755289,
+        0.00020247656493991908
+      ],
+      "median_m": 0.00023330310025772397,
+      "min_m": 0.00020247656493991908,
+      "max_m": 0.0002641296355755289
+    },
+    {
+      "observer": "color",
+      "hidden_bias_m": 0.0005,
+      "arm": "B",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        9.164400611605057e-05,
+        8.966476421851711e-05
+      ],
+      "median_m": 9.065438516728384e-05,
+      "min_m": 8.966476421851711e-05,
+      "max_m": 9.164400611605057e-05
+    },
+    {
+      "observer": "color",
+      "hidden_bias_m": 0.0005,
+      "arm": "D",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.000139715539170551,
+        0.0001970756293891303
+      ],
+      "median_m": 0.00016839558427984066,
+      "min_m": 0.000139715539170551,
+      "max_m": 0.0001970756293891303
+    },
+    {
+      "observer": "color",
+      "hidden_bias_m": 0.0005,
+      "arm": "dense",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        6.820577615267365e-05,
+        6.152893351270102e-05
+      ],
+      "median_m": 6.486735483268734e-05,
+      "min_m": 6.152893351270102e-05,
+      "max_m": 6.820577615267365e-05
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": -0.0005,
+      "arm": "B",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        3.88024649062709e-05,
+        3.577336552855162e-05
+      ],
+      "median_m": 3.728791521741126e-05,
+      "min_m": 3.577336552855162e-05,
+      "max_m": 3.88024649062709e-05
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": -0.0005,
+      "arm": "D",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        4.1454059117799746e-05,
+        4.03722735194412e-05
+      ],
+      "median_m": 4.0913166318620476e-05,
+      "min_m": 4.03722735194412e-05,
+      "max_m": 4.1454059117799746e-05
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": -0.0005,
+      "arm": "dense",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        4.1394615637791136e-05,
+        4.093153151598795e-05
+      ],
+      "median_m": 4.116307357688955e-05,
+      "min_m": 4.093153151598795e-05,
+      "max_m": 4.1394615637791136e-05
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": 0.0005,
+      "arm": "B",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.00023678671539603983,
+        0.00023695465341791021
+      ],
+      "median_m": 0.00023687068440697502,
+      "min_m": 0.00023678671539603983,
+      "max_m": 0.00023695465341791021
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": 0.0005,
+      "arm": "D",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.0002352254026896003,
+        0.000233946089620715
+      ],
+      "median_m": 0.00023458574615515764,
+      "min_m": 0.000233946089620715,
+      "max_m": 0.0002352254026896003
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": 0.0005,
+      "arm": "dense",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.00023237374618456053,
+        0.00023609110209849067
+      ],
+      "median_m": 0.0002342324241415256,
+      "min_m": 0.00023237374618456053,
+      "max_m": 0.00023609110209849067
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": -0.0005,
+      "arm": "B",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.00033488478056796094,
+        0.00022931553017009295
+      ],
+      "median_m": 0.00028210015536902697,
+      "min_m": 0.00022931553017009295,
+      "max_m": 0.00033488478056796094
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": -0.0005,
+      "arm": "D",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.0003340464644617839,
+        0.00018308599351288344
+      ],
+      "median_m": 0.00025856622898733366,
+      "min_m": 0.00018308599351288344,
+      "max_m": 0.0003340464644617839
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": -0.0005,
+      "arm": "dense",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.00031405733080653306,
+        0.0002781866556638238
+      ],
+      "median_m": 0.00029612199323517845,
+      "min_m": 0.0002781866556638238,
+      "max_m": 0.00031405733080653306
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": 0.0005,
+      "arm": "B",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.00012195559987774238,
+        9.007181749715528e-05
+      ],
+      "median_m": 0.00010601370868744883,
+      "min_m": 9.007181749715528e-05,
+      "max_m": 0.00012195559987774238
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": 0.0005,
+      "arm": "D",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        4.586986752299567e-05,
+        0.00013262649557807323
+      ],
+      "median_m": 8.924818155053445e-05,
+      "min_m": 4.586986752299567e-05,
+      "max_m": 0.00013262649557807323
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": 0.0005,
+      "arm": "dense",
+      "planned_count": 2,
+      "valid_count": 2,
+      "primary_values_m": [
+        0.00012004883180965172,
+        4.932713632459718e-05
+      ],
+      "median_m": 8.468798406712444e-05,
+      "min_m": 4.932713632459718e-05,
+      "max_m": 0.00012004883180965172
+    }
+  ],
+  "paired_median_differences": [
+    {
+      "observer": "color",
+      "hidden_bias_m": -0.0005,
+      "D_minus_B_primary_m": 9.29257312378326e-05,
+      "dense_minus_D_primary_m": -4.4036201842419524e-05
+    },
+    {
+      "observer": "color",
+      "hidden_bias_m": 0.0005,
+      "D_minus_B_primary_m": 7.774119911255682e-05,
+      "dense_minus_D_primary_m": -0.00010352822944715332
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": -0.0005,
+      "D_minus_B_primary_m": 3.6252511012092157e-06,
+      "dense_minus_D_primary_m": 2.4990725826907166e-07
+    },
+    {
+      "observer": "depth",
+      "hidden_bias_m": 0.0005,
+      "D_minus_B_primary_m": -2.284938251817379e-06,
+      "dense_minus_D_primary_m": -3.533220136320422e-07
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": -0.0005,
+      "D_minus_B_primary_m": -2.3533926381693313e-05,
+      "dense_minus_D_primary_m": 3.7555764247844793e-05
+    },
+    {
+      "observer": "oracle",
+      "hidden_bias_m": 0.0005,
+      "D_minus_B_primary_m": -1.676552713691438e-05,
+      "dense_minus_D_primary_m": -4.5601974834100066e-06
+    }
+  ],
+  "scope": "Two technical repetitions per condition; no confidence interval or population superiority claim. Failed/invalid cases remain in planned denominator; primary unavailable for invalid execution, not imputed as zero. Bulk-face and front-edge metrics are distinct. Snapshot visual cohort and epoch task are not pooled."
+}

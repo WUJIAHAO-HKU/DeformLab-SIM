@@ -1,0 +1,143 @@
+{
+  "study": "independent-native-quality-cost-v17-r2",
+  "status": "complete",
+  "n": 30,
+  "methods": {
+    "B": {
+      "n": 6,
+      "successes": 0,
+      "success_rate": 0.0,
+      "data_ready_cost_mean_s": 174.16213715231666,
+      "data_ready_cost_median_s": 172.7619826393202,
+      "final_clearance_median_um": -19892.634071409702,
+      "final_clearance_mean_um": -21503.80877653758,
+      "peak_gauge_penetration_max_um": 1999.9540126333527,
+      "minimum_J_min": -1.7147444376097467,
+      "minimum_J_median": -0.5014667374786379,
+      "loop_cost_mean_s": 70.56457484265168
+    },
+    "D": {
+      "n": 6,
+      "successes": 5,
+      "success_rate": 0.8333333333333334,
+      "data_ready_cost_mean_s": 204.39168828446418,
+      "data_ready_cost_median_s": 199.6358005842194,
+      "final_clearance_median_um": 264.6172642707806,
+      "final_clearance_mean_um": 222.3690822720515,
+      "peak_gauge_penetration_max_um": 67.43053396655006,
+      "minimum_J_min": 0.9475012507989067,
+      "minimum_J_median": 0.9645996706773794,
+      "loop_cost_mean_s": 93.84784358864029
+    },
+    "Dense": {
+      "n": 6,
+      "successes": 5,
+      "success_rate": 0.8333333333333334,
+      "data_ready_cost_mean_s": 225.01303707125285,
+      "data_ready_cost_median_s": 222.24939895886928,
+      "final_clearance_median_um": 260.72061061858943,
+      "final_clearance_mean_um": 230.96892734368544,
+      "peak_gauge_penetration_max_um": 66.42284447498474,
+      "minimum_J_min": 0.9471624613889809,
+      "minimum_J_median": 0.9645649451773737,
+      "loop_cost_mean_s": 118.45692525586735
+    },
+    "Periodic-2": {
+      "n": 6,
+      "successes": 5,
+      "success_rate": 0.8333333333333334,
+      "data_ready_cost_mean_s": 206.09698221087456,
+      "data_ready_cost_median_s": 193.66565852984786,
+      "final_clearance_median_um": 199.972301721571,
+      "final_clearance_mean_um": 207.51045147577793,
+      "peak_gauge_penetration_max_um": 87.8263981351577,
+      "minimum_J_min": 0.9388963592088808,
+      "minimum_J_median": 0.9624054178150825,
+      "loop_cost_mean_s": 92.47146304013829
+    },
+    "Periodic-4": {
+      "n": 6,
+      "successes": 6,
+      "success_rate": 1.0,
+      "data_ready_cost_mean_s": 217.55668988730758,
+      "data_ready_cost_median_s": 193.84564035199583,
+      "final_clearance_median_um": 261.40233874320796,
+      "final_clearance_mean_um": 226.10182315111032,
+      "peak_gauge_penetration_max_um": 0.0,
+      "minimum_J_min": 0.9509545942763822,
+      "minimum_J_median": 0.9618091607614008,
+      "loop_cost_mean_s": 90.89577015737693
+    }
+  },
+  "raw_results_sha256": "cc1110e291f2a49b7eefb0c1385eb907970594f8d76d983843e9ac700f9d6b1b",
+  "D_vs_Dense_pairs": [
+    {
+      "condition_index": 0,
+      "initial_index": 0,
+      "D_success": true,
+      "Dense_success": true,
+      "D_cost_s": 225.52848580479622,
+      "Dense_cost_s": 222.80697092041373,
+      "saving_fraction": -0.012214675659113938,
+      "D_clearance_um": 27.961075305938525,
+      "Dense_clearance_um": 25.80972015857677
+    },
+    {
+      "condition_index": 0,
+      "initial_index": 1,
+      "D_success": true,
+      "Dense_success": true,
+      "D_cost_s": 214.22997079789639,
+      "Dense_cost_s": 219.3696744516492,
+      "saving_fraction": 0.02342941733674153,
+      "D_clearance_um": 157.9941213130931,
+      "Dense_clearance_um": 147.43664860725204
+    },
+    {
+      "condition_index": 0,
+      "initial_index": 2,
+      "D_success": false,
+      "Dense_success": false,
+      "D_cost_s": 202.99776999652386,
+      "Dense_cost_s": 221.69182699732482,
+      "saving_fraction": 0.08432452045706917,
+      "D_clearance_um": -30.92272579669972,
+      "Dense_clearance_um": -21.566659212112622
+    },
+    {
+      "condition_index": 1,
+      "initial_index": 0,
+      "D_success": true,
+      "Dense_success": true,
+      "D_cost_s": 196.27383117191494,
+      "Dense_cost_s": 227.50752487964928,
+      "saving_fraction": 0.13728642041293737,
+      "D_clearance_um": 371.2404072284681,
+      "Dense_clearance_um": 374.0045726299268
+    },
+    {
+      "condition_index": 1,
+      "initial_index": 1,
+      "D_success": true,
+      "Dense_success": true,
+      "D_cost_s": 193.41131030768156,
+      "Dense_cost_s": 238.4587507992983,
+      "saving_fraction": 0.18891082982117713,
+      "D_clearance_um": 390.75720310211005,
+      "Dense_clearance_um": 455.5959552526474
+    },
+    {
+      "condition_index": 1,
+      "initial_index": 2,
+      "D_success": true,
+      "Dense_success": true,
+      "D_cost_s": 193.90876162797213,
+      "Dense_cost_s": 220.24347437918186,
+      "saving_fraction": 0.11957091044554902,
+      "D_clearance_um": 417.1844124793989,
+      "Dense_clearance_um": 404.5333266258222
+    }
+  ],
+  "D_vs_Dense_paired_mean_saving_fraction": 0.09021790380239338,
+  "D_vs_Dense_paired_median_saving_fraction": 0.1019477154513091
+}

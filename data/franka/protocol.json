@@ -1,0 +1,102 @@
+{
+  "name": "franka-full-transfer-v1",
+  "development": [
+    "dev0-D",
+    "dev1-D",
+    "dev2-D"
+  ],
+  "scope": "Native simulated Franka pick, free-space transfer, slot placement, release and arm withdrawal. This is an articulated arm test, separate from the RGB-D pusher/gauge bench.",
+  "arms": {
+    "B": "native contacts plus split-velocity mapping",
+    "D": "same mapping plus selective bottom support",
+    "Dense": "same mapping plus dense bottom support"
+  },
+  "physics_hz": 960,
+  "position_iterations_requested": 32,
+  "joint_feedback_hz": 240,
+  "physical_duration_s": 10.0,
+  "camera_fps": 10,
+  "policy": "Shared fixed Cartesian trajectory with native joint feedback; no RGB-D or nodal feedback, no object attachment or imposed pose after initialization.",
+  "scoring": "All started runs retained. Scene/runtime failures are surfaced separately; no retry/selection by physical result. Score on measured node states and actual joint and hand poses; final window [9.5,10.0] s. Positive whole-object margin, rail penetration <=1 mm, floor support within 1 mm, fingers open and hand at least 100 mm above object top, stable final centroid, positive tet Jacobians. Prior unsupported lift >35 mm with <7 mm relative drift and >40 mm transport required.",
+  "timing": "Common 10 s physical horizon; synchronized wall-clock rollout including captures; separately report actuation/physics net of instrumentation, captures and readback. Exclude startup and disk export. Record foreign GPU duty; shared-run times are descriptive and not proof of a clean speedup.",
+  "rotation_order": "Every method appears twice in every order slot; each material receives each first method once.",
+  "cases": [
+    {
+      "id": "C01",
+      "young_pa": 50000,
+      "offset_x_m": -0.0014,
+      "offset_y_m": 0.0006,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "D",
+        "Dense"
+      ]
+    },
+    {
+      "id": "C02",
+      "young_pa": 50000,
+      "offset_x_m": 0.0013,
+      "offset_y_m": -0.0007,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "Dense",
+        "B"
+      ]
+    },
+    {
+      "id": "C03",
+      "young_pa": 50000,
+      "offset_x_m": -0.0006,
+      "offset_y_m": -0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "id": "C04",
+      "young_pa": 80000,
+      "offset_x_m": 0.0015,
+      "offset_y_m": 0.0005,
+      "opening_extra_m": 0.004,
+      "order": [
+        "B",
+        "Dense",
+        "D"
+      ]
+    },
+    {
+      "id": "C05",
+      "young_pa": 80000,
+      "offset_x_m": -0.0011,
+      "offset_y_m": -0.0006,
+      "opening_extra_m": 0.003,
+      "order": [
+        "D",
+        "B",
+        "Dense"
+      ]
+    },
+    {
+      "id": "C06",
+      "young_pa": 80000,
+      "offset_x_m": 0.0006,
+      "offset_y_m": 0.001,
+      "opening_extra_m": 0.003,
+      "order": [
+        "Dense",
+        "D",
+        "B"
+      ]
+    }
+  ],
+  "fixed": {
+    "side_m": 0.04,
+    "closed_fraction": 0.3
+  },
+  "video_selection": "First complete paired cell C01 regardless of outcome. Include all three routes and synchronized capture; archive all case frames."
+}

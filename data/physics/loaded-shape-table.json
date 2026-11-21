@@ -1,0 +1,20 @@
+{
+  "scope": "Aggregate table entries as reported in the self-contained manuscript; independent trajectories remain in the project archive.",
+  "units": "micrometers",
+  "shape_reference": "Newton Vertex Block Descent, 40 iterations",
+  "methods": {
+    "Consistent State Mapping": {
+      "shape_rms": 13.803,
+      "peak_penetration": 106.515
+    },
+    "DeformLabSim": {
+      "shape_rms": 1.329,
+      "peak_penetration": 0.449
+    },
+    "Newton Vertex Block Descent": {
+      "shape_rms": null,
+      "peak_penetration": 2.908
+    }
+  },
+  "manuscript_source_sha256": "f2e73fdceaf1520419a7a7e8967289f4e38fb9859b3d06c04c38aa3eb9db04c0"
+}

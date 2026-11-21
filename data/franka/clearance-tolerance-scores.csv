@@ -1,0 +1,109 @@
+case,method,minimum_final_clearance_mm,allowed_overflow_mm,all_other_criteria_pass,complete_task_pass
+C01,Consistent State Mapping,-3.335649663815908,0.0,True,False
+C01,Consistent State Mapping,-3.335649663815908,0.05,True,False
+C01,Consistent State Mapping,-3.335649663815908,0.1,True,False
+C01,Consistent State Mapping,-3.335649663815908,0.25,True,False
+C01,Consistent State Mapping,-3.335649663815908,0.5,True,False
+C01,Consistent State Mapping,-3.335649663815908,1.0,True,False
+C01,DeformLabSim,0.8854817694525021,0.0,True,True
+C01,DeformLabSim,0.8854817694525021,0.05,True,True
+C01,DeformLabSim,0.8854817694525021,0.1,True,True
+C01,DeformLabSim,0.8854817694525021,0.25,True,True
+C01,DeformLabSim,0.8854817694525021,0.5,True,True
+C01,DeformLabSim,0.8854817694525021,1.0,True,True
+C01,Full Boundary Contact,0.7665705031255978,0.0,True,True
+C01,Full Boundary Contact,0.7665705031255978,0.05,True,True
+C01,Full Boundary Contact,0.7665705031255978,0.1,True,True
+C01,Full Boundary Contact,0.7665705031255978,0.25,True,True
+C01,Full Boundary Contact,0.7665705031255978,0.5,True,True
+C01,Full Boundary Contact,0.7665705031255978,1.0,True,True
+C02,Consistent State Mapping,0.21903579891722688,0.0,True,True
+C02,Consistent State Mapping,0.21903579891722688,0.05,True,True
+C02,Consistent State Mapping,0.21903579891722688,0.1,True,True
+C02,Consistent State Mapping,0.21903579891722688,0.25,True,True
+C02,Consistent State Mapping,0.21903579891722688,0.5,True,True
+C02,Consistent State Mapping,0.21903579891722688,1.0,True,True
+C02,DeformLabSim,-4.292946403612681,0.0,True,False
+C02,DeformLabSim,-4.292946403612681,0.05,True,False
+C02,DeformLabSim,-4.292946403612681,0.1,True,False
+C02,DeformLabSim,-4.292946403612681,0.25,True,False
+C02,DeformLabSim,-4.292946403612681,0.5,True,False
+C02,DeformLabSim,-4.292946403612681,1.0,True,False
+C02,Full Boundary Contact,0.5739019566674934,0.0,True,True
+C02,Full Boundary Contact,0.5739019566674934,0.05,True,True
+C02,Full Boundary Contact,0.5739019566674934,0.1,True,True
+C02,Full Boundary Contact,0.5739019566674934,0.25,True,True
+C02,Full Boundary Contact,0.5739019566674934,0.5,True,True
+C02,Full Boundary Contact,0.5739019566674934,1.0,True,True
+C03,Consistent State Mapping,-0.0595563107629489,0.0,True,False
+C03,Consistent State Mapping,-0.0595563107629489,0.05,True,False
+C03,Consistent State Mapping,-0.0595563107629489,0.1,True,True
+C03,Consistent State Mapping,-0.0595563107629489,0.25,True,True
+C03,Consistent State Mapping,-0.0595563107629489,0.5,True,True
+C03,Consistent State Mapping,-0.0595563107629489,1.0,True,True
+C03,DeformLabSim,1.1095589941839505,0.0,True,True
+C03,DeformLabSim,1.1095589941839505,0.05,True,True
+C03,DeformLabSim,1.1095589941839505,0.1,True,True
+C03,DeformLabSim,1.1095589941839505,0.25,True,True
+C03,DeformLabSim,1.1095589941839505,0.5,True,True
+C03,DeformLabSim,1.1095589941839505,1.0,True,True
+C03,Full Boundary Contact,1.1737233942846585,0.0,True,True
+C03,Full Boundary Contact,1.1737233942846585,0.05,True,True
+C03,Full Boundary Contact,1.1737233942846585,0.1,True,True
+C03,Full Boundary Contact,1.1737233942846585,0.25,True,True
+C03,Full Boundary Contact,1.1737233942846585,0.5,True,True
+C03,Full Boundary Contact,1.1737233942846585,1.0,True,True
+C04,Consistent State Mapping,1.2874256914953488,0.0,True,True
+C04,Consistent State Mapping,1.2874256914953488,0.05,True,True
+C04,Consistent State Mapping,1.2874256914953488,0.1,True,True
+C04,Consistent State Mapping,1.2874256914953488,0.25,True,True
+C04,Consistent State Mapping,1.2874256914953488,0.5,True,True
+C04,Consistent State Mapping,1.2874256914953488,1.0,True,True
+C04,DeformLabSim,0.1481822186608986,0.0,True,True
+C04,DeformLabSim,0.1481822186608986,0.05,True,True
+C04,DeformLabSim,0.1481822186608986,0.1,True,True
+C04,DeformLabSim,0.1481822186608986,0.25,True,True
+C04,DeformLabSim,0.1481822186608986,0.5,True,True
+C04,DeformLabSim,0.1481822186608986,1.0,True,True
+C04,Full Boundary Contact,0.19875675975281754,0.0,True,True
+C04,Full Boundary Contact,0.19875675975281754,0.05,True,True
+C04,Full Boundary Contact,0.19875675975281754,0.1,True,True
+C04,Full Boundary Contact,0.19875675975281754,0.25,True,True
+C04,Full Boundary Contact,0.19875675975281754,0.5,True,True
+C04,Full Boundary Contact,0.19875675975281754,1.0,True,True
+C05,Consistent State Mapping,-4.7630085295538205,0.0,True,False
+C05,Consistent State Mapping,-4.7630085295538205,0.05,True,False
+C05,Consistent State Mapping,-4.7630085295538205,0.1,True,False
+C05,Consistent State Mapping,-4.7630085295538205,0.25,True,False
+C05,Consistent State Mapping,-4.7630085295538205,0.5,True,False
+C05,Consistent State Mapping,-4.7630085295538205,1.0,True,False
+C05,DeformLabSim,0.5638486689428617,0.0,True,True
+C05,DeformLabSim,0.5638486689428617,0.05,True,True
+C05,DeformLabSim,0.5638486689428617,0.1,True,True
+C05,DeformLabSim,0.5638486689428617,0.25,True,True
+C05,DeformLabSim,0.5638486689428617,0.5,True,True
+C05,DeformLabSim,0.5638486689428617,1.0,True,True
+C05,Full Boundary Contact,0.5652195757726957,0.0,True,True
+C05,Full Boundary Contact,0.5652195757726957,0.05,True,True
+C05,Full Boundary Contact,0.5652195757726957,0.1,True,True
+C05,Full Boundary Contact,0.5652195757726957,0.25,True,True
+C05,Full Boundary Contact,0.5652195757726957,0.5,True,True
+C05,Full Boundary Contact,0.5652195757726957,1.0,True,True
+C06,Consistent State Mapping,-0.07505351840455046,0.0,True,False
+C06,Consistent State Mapping,-0.07505351840455046,0.05,True,False
+C06,Consistent State Mapping,-0.07505351840455046,0.1,True,True
+C06,Consistent State Mapping,-0.07505351840455046,0.25,True,True
+C06,Consistent State Mapping,-0.07505351840455046,0.5,True,True
+C06,Consistent State Mapping,-0.07505351840455046,1.0,True,True
+C06,DeformLabSim,0.34871560870606766,0.0,True,True
+C06,DeformLabSim,0.34871560870606766,0.05,True,True
+C06,DeformLabSim,0.34871560870606766,0.1,True,True
+C06,DeformLabSim,0.34871560870606766,0.25,True,True
+C06,DeformLabSim,0.34871560870606766,0.5,True,True
+C06,DeformLabSim,0.34871560870606766,1.0,True,True
+C06,Full Boundary Contact,0.3263638669152962,0.0,True,True
+C06,Full Boundary Contact,0.3263638669152962,0.05,True,True
+C06,Full Boundary Contact,0.3263638669152962,0.1,True,True
+C06,Full Boundary Contact,0.3263638669152962,0.25,True,True
+C06,Full Boundary Contact,0.3263638669152962,0.5,True,True
+C06,Full Boundary Contact,0.3263638669152962,1.0,True,True

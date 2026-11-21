@@ -1,0 +1,4070 @@
+[
+  {
+    "case_id": "block0-reference-A",
+    "block": 0,
+    "condition": "reference",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779793,
+        13779793,
+        7439067,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.003193879842758207,
+      "hold_error_m": 0.00021587896347047275,
+      "minimum_lift_m": 0.034084080934524585,
+      "minimum_clearance_m": 0.032203700963232273,
+      "relative_drift_m": 0.00037095056622171474,
+      "min_J": 0.629269129539952,
+      "penetration_m": 0.00016361790540481147
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "8ffab61d9b4d79a6761da9234ebf5393e7c4927c3cea1acc004532d1849ab146"
+  },
+  {
+    "case_id": "block0-reference-B",
+    "block": 0,
+    "condition": "reference",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779802,
+        13779802,
+        7439070,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0011385414600372235,
+      "hold_error_m": 4.64138984679896e-05,
+      "minimum_lift_m": 0.03465524578094481,
+      "minimum_clearance_m": 0.033773925725195164,
+      "relative_drift_m": 0.0004397369002593717,
+      "min_J": 0.7322225023137144,
+      "penetration_m": 0.00016290264966750678
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "ce5c9d76e0f9bcfd0dcb92743a1bd49df82b053c8e3019dc57ee336c21fab8af"
+  },
+  {
+    "case_id": "block0-reference-D",
+    "block": 0,
+    "condition": "reference",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516433,
+        15516433,
+        7439067,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5030328,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            1024022,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2803516,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3516912,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4153919,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4888462,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5030328,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5030328,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0006974861621856787,
+      "hold_error_m": 8.093142509463247e-05,
+      "minimum_lift_m": 0.034731876373291004,
+      "minimum_clearance_m": 0.03369781059381699,
+      "relative_drift_m": 0.00047372323364737673,
+      "min_J": 0.7426965542450891,
+      "penetration_m": 3.430562856460151e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "3b39a1eac9477a83c34e0a865df26a31c5166288c65b104d403082f1b05257a6"
+  },
+  {
+    "case_id": "block0-compliant-B",
+    "block": 0,
+    "condition": "compliant",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779784,
+        13779784,
+        7439064,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0019446625709533816,
+      "hold_error_m": 3.175878524785958e-05,
+      "minimum_lift_m": 0.03455704641342161,
+      "minimum_clearance_m": 0.03323951048013901,
+      "relative_drift_m": 0.00045452350112347954,
+      "min_J": 0.6923541564927034,
+      "penetration_m": 0.0001958342159059101
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "53a783cb36fbbb531966c17b8623821006d3553575e0f7cddc79da81b5189963"
+  },
+  {
+    "case_id": "block0-compliant-D",
+    "block": 0,
+    "condition": "compliant",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516415,
+        15516415,
+        7439061,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5249476,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            1188406,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2948054,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3697654,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4365475,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            5091269,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5249476,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5249476,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.000620367050170878,
+      "hold_error_m": 7.588219642640226e-05,
+      "minimum_lift_m": 0.03454118490219121,
+      "minimum_clearance_m": 0.0331804422771666,
+      "relative_drift_m": 0.0004244585458120165,
+      "min_J": 0.6963451348674035,
+      "penetration_m": 5.963619973903267e-06
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "a9a1d148f74f3b56cc251da07be8e6f819a523a15b8c3ae2434075b51a0b77f7"
+  },
+  {
+    "case_id": "block0-compliant-A",
+    "block": 0,
+    "condition": "compliant",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779793,
+        13779793,
+        7439067,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.006288353681564329,
+      "hold_error_m": 0.0005318856239319159,
+      "minimum_lift_m": 0.030490344285964976,
+      "minimum_clearance_m": 0.02566045207140183,
+      "relative_drift_m": 0.0020997715413542065,
+      "min_J": 0.4824777407934552,
+      "penetration_m": 0.00021916943433547553
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "704d5414c2d0a9ab75162e42e59d653b3c377cd302feae82a8446a994ac8007a"
+  },
+  {
+    "case_id": "block0-stiff-D",
+    "block": 0,
+    "condition": "stiff",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516424,
+        15516424,
+        7439064,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5135609,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            965030,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2771117,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3535344,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4249316,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4998643,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5135609,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5135609,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0007100961208343359,
+      "hold_error_m": 5.422568321228338e-05,
+      "minimum_lift_m": 0.03471943736076355,
+      "minimum_clearance_m": 0.034020271722051854,
+      "relative_drift_m": 0.0004611297938465589,
+      "min_J": 0.7479280590710596,
+      "penetration_m": 1.4695700433497993e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "ea136e5ab462ab76e90dc153e0a806983f4f2d93073b0d96afc4a89fa9e9db2c"
+  },
+  {
+    "case_id": "block0-stiff-A",
+    "block": 0,
+    "condition": "stiff",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779811,
+        13779811,
+        7439073,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.002150844812393249,
+      "hold_error_m": 0.00016313624382013892,
+      "minimum_lift_m": 0.034136857032775914,
+      "minimum_clearance_m": 0.03249290269968247,
+      "relative_drift_m": 0.0004298272567998637,
+      "min_J": 0.6481765677512668,
+      "penetration_m": 0.00016126352193618354
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "fb79ab90a6bee54dda69d2f0a29586d026c602113cf88d1ab9899c8f380cd07f"
+  },
+  {
+    "case_id": "block0-stiff-B",
+    "block": 0,
+    "condition": "stiff",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779802,
+        13779802,
+        7439070,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.000923307895660419,
+      "hold_error_m": 2.7284622192425e-05,
+      "minimum_lift_m": 0.03475042438507081,
+      "minimum_clearance_m": 0.03401371521112656,
+      "relative_drift_m": 0.00048590713780736,
+      "min_J": 0.7374386556709371,
+      "penetration_m": 0.00013366657140517768
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "1b89cb0120f9a85c7d3d9d99d2ed276c5962233a04108ef4f5923df206506d52"
+  },
+  {
+    "case_id": "block0-small-A",
+    "block": 0,
+    "condition": "small",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13855384,
+        13855384,
+        7439067,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0031146163940429794,
+      "hold_error_m": 0.00014314627647399325,
+      "minimum_lift_m": 0.034588793039321886,
+      "minimum_clearance_m": 0.03223260444757675,
+      "relative_drift_m": 0.00039258678957184746,
+      "min_J": 0.36898946386516895,
+      "penetration_m": 0.00017295080068374658
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "90f7884d1cb250f44d922b9db1137beb79ca213eaf3f0d701773596dfd833164"
+  },
+  {
+    "case_id": "block0-small-D",
+    "block": 0,
+    "condition": "small",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15591970,
+        15591970,
+        7439064,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        4869367,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            957865,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2720659,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3382181,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4016684,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4724144,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            4869367,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            4869367,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.00037332940101625356,
+      "hold_error_m": 0.00017328977584835092,
+      "minimum_lift_m": 0.03459301304817197,
+      "minimum_clearance_m": 0.033465824547979584,
+      "relative_drift_m": 0.0007088331156975193,
+      "min_J": 0.2695505516902329,
+      "penetration_m": 1.3389166620025872e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "3d3034fc02aec0d6c94effa2b5214231bb3c0e612081495f90b9173366cbffb0"
+  },
+  {
+    "case_id": "block0-small-B",
+    "block": 0,
+    "condition": "small",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13856000,
+        13856000,
+        7439256,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0009163596630096804,
+      "hold_error_m": 5.810785293575149e-05,
+      "minimum_lift_m": 0.03520329427719121,
+      "minimum_clearance_m": 0.034004888955328216,
+      "relative_drift_m": 0.0004458265925588947,
+      "min_J": 0.3290810528012371,
+      "penetration_m": 0.000193842228677521
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "d9553f74d1f2b0e49cb501be5d7ce959f568b98cba9e2f0c3c8f8a2eb4f8d4db"
+  },
+  {
+    "case_id": "block1-reference-B",
+    "block": 1,
+    "condition": "reference",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779793,
+        13779793,
+        7439067,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0010554461479187482,
+      "hold_error_m": 3.193569183346234e-05,
+      "minimum_lift_m": 0.034680921077728244,
+      "minimum_clearance_m": 0.03379669469949936,
+      "relative_drift_m": 0.0005411090573632307,
+      "min_J": 0.7333361918150121,
+      "penetration_m": 0.00018850284459853706
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "21d6debc4a2ba4cc2fea96e6d4442158f7e82438fa5b7000c14602fcc612f3f2"
+  },
+  {
+    "case_id": "block1-reference-D",
+    "block": 1,
+    "condition": "reference",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516424,
+        15516424,
+        7439064,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5035804,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            1027283,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2820291,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3535259,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4166300,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4894705,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5035804,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5035804,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0006914033889770521,
+      "hold_error_m": 8.021378517153455e-05,
+      "minimum_lift_m": 0.0347304291725159,
+      "minimum_clearance_m": 0.033691671315405125,
+      "relative_drift_m": 0.0004905092523912557,
+      "min_J": 0.74251990844874,
+      "penetration_m": 3.412681463027534e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "077e8bf64491abdaf4c42226bca075f2f56c99d43b00d474cef5e4eaeee196c1"
+  },
+  {
+    "case_id": "block1-reference-A",
+    "block": 1,
+    "condition": "reference",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779811,
+        13779811,
+        7439073,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.003054593563079855,
+      "hold_error_m": 0.00020784306526183682,
+      "minimum_lift_m": 0.033763347148895284,
+      "minimum_clearance_m": 0.03197529596445298,
+      "relative_drift_m": 0.000609963321357616,
+      "min_J": 0.6410476829876153,
+      "penetration_m": 0.0001709790790345722
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "da44b77905fb4a0bada2d304c1cc89838be91d7f0293328e39488af02325e048"
+  },
+  {
+    "case_id": "block1-compliant-D",
+    "block": 1,
+    "condition": "compliant",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516419,
+        15516419,
+        7439064,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5226039,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            1189302,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2955789,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3703902,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4357222,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            5069745,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5226039,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5226039,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0006431252956390354,
+      "hold_error_m": 9.159541130066007e-05,
+      "minimum_lift_m": 0.03454153752326966,
+      "minimum_clearance_m": 0.03316184562799668,
+      "relative_drift_m": 0.00041254144703882376,
+      "min_J": 0.6964992318642242,
+      "penetration_m": 5.963619973903267e-06
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "aa7dfc3609a54e042681c1374154e23f2e83499bed07bbaef12c4971bae25e9d"
+  },
+  {
+    "case_id": "block1-compliant-A",
+    "block": 1,
+    "condition": "compliant",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779802,
+        13779802,
+        7439070,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.005946593999862693,
+      "hold_error_m": 0.000640154838562057,
+      "minimum_lift_m": 0.030672326564788854,
+      "minimum_clearance_m": 0.026103523198339695,
+      "relative_drift_m": 0.003240312084399902,
+      "min_J": 0.5116609844596873,
+      "penetration_m": 0.0002118082607057148
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "888d02e66521d4f0d7307f8360d1e04cb81a3a518085d530929e12d2df54a231"
+  },
+  {
+    "case_id": "block1-compliant-B",
+    "block": 1,
+    "condition": "compliant",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779793,
+        13779793,
+        7439067,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0018676209449768333,
+      "hold_error_m": 3.4960269927941656e-05,
+      "minimum_lift_m": 0.034350064039230355,
+      "minimum_clearance_m": 0.032959785882208104,
+      "relative_drift_m": 0.0004917839840246701,
+      "min_J": 0.681603064680661,
+      "penetration_m": 0.00018358546140456733
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "4157e7fef405f7394d85209d7b3ce334b1afd9c7bdb1e5e1ebfba7bfe8b1b443"
+  },
+  {
+    "case_id": "block1-stiff-A",
+    "block": 1,
+    "condition": "stiff",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779811,
+        13779811,
+        7439073,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0019854259490967308,
+      "hold_error_m": 0.00020615100860593705,
+      "minimum_lift_m": 0.034148900270462024,
+      "minimum_clearance_m": 0.032541182461950535,
+      "relative_drift_m": 0.00044050107327287533,
+      "min_J": 0.64926091314047,
+      "penetration_m": 0.00015718060376906928
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "c24df6ae586232dd48bc47b87e40efe89a9338b33796e1dcc49d41a19c199150"
+  },
+  {
+    "case_id": "block1-stiff-B",
+    "block": 1,
+    "condition": "stiff",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779793,
+        13779793,
+        7439067,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0009332253932953227,
+      "hold_error_m": 3.1145334243753986e-05,
+      "minimum_lift_m": 0.03469659256935115,
+      "minimum_clearance_m": 0.033903863850805516,
+      "relative_drift_m": 0.00042057136883101543,
+      "min_J": 0.7330454446365391,
+      "penetration_m": 0.00016871410253310737
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "1c9560cde2471c6f335f082061cd7c05106e4bf9fd927974e46f94448d41b830"
+  },
+  {
+    "case_id": "block1-stiff-D",
+    "block": 1,
+    "condition": "stiff",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516442,
+        15516442,
+        7439070,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5188332,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            967062,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2799235,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3574508,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4304203,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            5050835,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5188332,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5188332,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0007075963020324871,
+      "hold_error_m": 5.4994106292727274e-05,
+      "minimum_lift_m": 0.03472574663162231,
+      "minimum_clearance_m": 0.03403845113870835,
+      "relative_drift_m": 0.0004573176130276494,
+      "min_J": 0.7463773262126729,
+      "penetration_m": 1.4695700433497993e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "fed65d199f6db24ffd82966781a00a02c760367e39e6944f7e63a7a96125f4d4"
+  },
+  {
+    "case_id": "block1-small-D",
+    "block": 1,
+    "condition": "small",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15591999,
+        15591999,
+        7439058,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        4864839,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            982494,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2720433,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3378617,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4002256,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4715530,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            4864839,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            4864839,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.00040507102012637963,
+      "hold_error_m": 0.00016040349006646304,
+      "minimum_lift_m": 0.03455934143066408,
+      "minimum_clearance_m": 0.033446035805914154,
+      "relative_drift_m": 0.0008254125354559334,
+      "min_J": 0.2626801349267182,
+      "penetration_m": 1.3389166620025872e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "57cbf511d76dce76d7ae80feb20fcffe86f69f537c95afc68b895d621155f874"
+  },
+  {
+    "case_id": "block1-small-B",
+    "block": 1,
+    "condition": "small",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13855530,
+        13855530,
+        7439103,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0009659023284911972,
+      "hold_error_m": 6.128287315371184e-05,
+      "minimum_lift_m": 0.03462868213653564,
+      "minimum_clearance_m": 0.03333153528330063,
+      "relative_drift_m": 0.0006724763290220478,
+      "min_J": 0.30575657380567056,
+      "penetration_m": 0.00019026594999099755
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "85d17ee2246747c6a5e595cfdc981ae8d5a4c5c757f21410b862b1d7f1182aad"
+  },
+  {
+    "case_id": "block1-small-A",
+    "block": 1,
+    "condition": "small",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13855374,
+        13855374,
+        7439064,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0032419512271881223,
+      "hold_error_m": 0.00017600440979009813,
+      "minimum_lift_m": 0.034757522821426357,
+      "minimum_clearance_m": 0.03231599134561752,
+      "relative_drift_m": 0.0004687821865309817,
+      "min_J": 0.3589358077233145,
+      "penetration_m": 0.00015465217473770165
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "c026eb8d563d9ba041c8364abdb242faa98fc39508c7dfc230c21e1bcc9c3b98"
+  },
+  {
+    "case_id": "block2-reference-D",
+    "block": 2,
+    "condition": "reference",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516433,
+        15516433,
+        7439067,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5090795,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            1025742,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2838019,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3569187,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4207259,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4944528,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5090795,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5090795,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0006610219478607182,
+      "hold_error_m": 7.59296417236488e-05,
+      "minimum_lift_m": 0.03463845181465153,
+      "minimum_clearance_m": 0.03373482507822251,
+      "relative_drift_m": 0.00045934657802522487,
+      "min_J": 0.7418141359604074,
+      "penetration_m": 3.430562856460151e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "27aeb2b81beedf49f58be7a4be0645714223cfd4da40e49bf6d2a7d62421a178"
+  },
+  {
+    "case_id": "block2-reference-A",
+    "block": 2,
+    "condition": "reference",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779784,
+        13779784,
+        7439064,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0032169454097747963,
+      "hold_error_m": 0.00019116806983943135,
+      "minimum_lift_m": 0.03371510553359991,
+      "minimum_clearance_m": 0.03177401107904648,
+      "relative_drift_m": 0.0005044511396904857,
+      "min_J": 0.6353903114279394,
+      "penetration_m": 0.0001539619529511982
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "cd9daf792f6f217150eea7ed2c7a329aa6bc7c7675c2a50ba5fd0095ed2bdbe1"
+  },
+  {
+    "case_id": "block2-reference-B",
+    "block": 2,
+    "condition": "reference",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779784,
+        13779784,
+        7439064,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0010306348800659393,
+      "hold_error_m": 3.093791007996449e-05,
+      "minimum_lift_m": 0.03467697358131411,
+      "minimum_clearance_m": 0.03378459495660996,
+      "relative_drift_m": 0.00048415776633759503,
+      "min_J": 0.7298334600790091,
+      "penetration_m": 0.00016883331182265815
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "7c99d85e8af4abacab5b082ec6af3e9e6fff354ce96aad9c9198b815b75e497b"
+  },
+  {
+    "case_id": "block2-compliant-A",
+    "block": 2,
+    "condition": "compliant",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779784,
+        13779784,
+        7439064,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0058398303985595645,
+      "hold_error_m": 0.000516556978225724,
+      "minimum_lift_m": 0.030703927755355798,
+      "minimum_clearance_m": 0.022917058888647313,
+      "relative_drift_m": 0.004677712041595716,
+      "min_J": 0.49301198932315493,
+      "penetration_m": 0.0002194078529145771
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "be3297158d1f325222999203436d086c38bed385b7b676033836bd56235fafe6"
+  },
+  {
+    "case_id": "block2-compliant-B",
+    "block": 2,
+    "condition": "compliant",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779784,
+        13779784,
+        7439064,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0016411821842193808,
+      "hold_error_m": 0.00010240507125852671,
+      "minimum_lift_m": 0.03450088191032413,
+      "minimum_clearance_m": 0.033144560281011815,
+      "relative_drift_m": 0.0003377810523472294,
+      "min_J": 0.6790286769841228,
+      "penetration_m": 0.00016689616086745795
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "f118590e1e6897787b6c2d839c0b3896be77dd8977f875abb267df4e4e8d1308"
+  },
+  {
+    "case_id": "block2-compliant-D",
+    "block": 2,
+    "condition": "compliant",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516424,
+        15516424,
+        7439064,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5227475,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            1188031,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2960979,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3699152,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4355354,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            5070166,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5227475,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5227475,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0006750595569610662,
+      "hold_error_m": 8.845782279970349e-05,
+      "minimum_lift_m": 0.03452888345718386,
+      "minimum_clearance_m": 0.033107307378027195,
+      "relative_drift_m": 0.0003895998422118927,
+      "min_J": 0.6960526885776593,
+      "penetration_m": 5.963619973903267e-06
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "6ac6030dd0c4a4b85341fd7e14295d98ecede8411f87fed0761fb81d87183fcc"
+  },
+  {
+    "case_id": "block2-stiff-B",
+    "block": 2,
+    "condition": "stiff",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13779802,
+        13779802,
+        7439070,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0009768717288970996,
+      "hold_error_m": 1.599049568173916e-05,
+      "minimum_lift_m": 0.03474380326271059,
+      "minimum_clearance_m": 0.034022059861395115,
+      "relative_drift_m": 0.000474942607235194,
+      "min_J": 0.7312678135800489,
+      "penetration_m": 0.00016179996373916206
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "f61612f04097ab504c8bf529cdc3c8e21ceb2a55cfe06ab9f71ac18fd7d827bd"
+  },
+  {
+    "case_id": "block2-stiff-D",
+    "block": 2,
+    "condition": "stiff",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15516433,
+        15516433,
+        7439067,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        5130252,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            965381,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2756935,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3505277,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            4237962,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4992930,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            5130252,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            5130252,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0007083294391632133,
+      "hold_error_m": 5.365967750547984e-05,
+      "minimum_lift_m": 0.03473523831367492,
+      "minimum_clearance_m": 0.034037318650457615,
+      "relative_drift_m": 0.0004604471351519168,
+      "min_J": 0.7466361691814083,
+      "penetration_m": 1.4695700433497993e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "5f4d070295b8257530835398b9cacb0d0c85640ec33172e95d21ae55c508ef6b"
+  },
+  {
+    "case_id": "block2-stiff-A",
+    "block": 2,
+    "condition": "stiff",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13779793,
+        13779793,
+        7439067,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.001980397701263459,
+      "hold_error_m": 0.0001976058483123544,
+      "minimum_lift_m": 0.03414840984344486,
+      "minimum_clearance_m": 0.032557096902105565,
+      "relative_drift_m": 0.00036418954595707697,
+      "min_J": 0.6538037132032527,
+      "penetration_m": 0.00015423017385268745
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "92363d1a34b6e7e0d40d6852411e161e0f1cc2653b899ff5424f35ac4b6bbfc1"
+  },
+  {
+    "case_id": "block2-small-B",
+    "block": 2,
+    "condition": "small",
+    "arm": "B",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        13856389,
+        13856389,
+        7439391,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0009027206897735951,
+      "hold_error_m": 4.599952697748044e-05,
+      "minimum_lift_m": 0.034662156820297274,
+      "minimum_clearance_m": 0.03338517946359848,
+      "relative_drift_m": 0.0006599720108645666,
+      "min_J": 0.2578761048520612,
+      "penetration_m": 0.00019136863591934228
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "25e4ef145bd2a084f4da56cb9a5fe0cf692a579bdd24ea4a2c0a472f62f966ca"
+  },
+  {
+    "case_id": "block2-small-A",
+    "block": 2,
+    "condition": "small",
+    "arm": "A",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": false,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        0,
+        427680,
+        427680,
+        13855401,
+        13855401,
+        7439064,
+        0
+      ],
+      "surface_statistics": null,
+      "surface_phase_checkpoints": []
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.003120627880096427,
+      "hold_error_m": 0.0001441109180450595,
+      "minimum_lift_m": 0.034763286352157585,
+      "minimum_clearance_m": 0.03221764368173813,
+      "relative_drift_m": 0.0003407644406105351,
+      "min_J": 0.3563937337087389,
+      "penetration_m": 0.00015280443074966454
+    },
+    "placement_gates": {
+      "error_3mm": false,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "d126ad87fe95b7ae21cfa17b9e7f479bff87300d08844998005e736598375327"
+  },
+  {
+    "case_id": "block2-small-D",
+    "block": 2,
+    "condition": "small",
+    "arm": "D",
+    "planned": true,
+    "attempted": true,
+    "complete": true,
+    "execution_valid": true,
+    "placement_passed": true,
+    "regrasp_passed": true,
+    "raw_directory": null,
+    "classification": "closed",
+    "execution_counters": {
+      "cp_launch_counts": [
+        427680,
+        427680,
+        427680,
+        15592035,
+        15592035,
+        7439070,
+        0
+      ],
+      "surface_statistics": [
+        427680,
+        427680,
+        12960,
+        33,
+        0,
+        0,
+        65536,
+        427680,
+        427680,
+        4813572,
+        12960,
+        3442044,
+        0,
+        0,
+        12960,
+        33
+      ],
+      "surface_phase_checkpoints": [
+        {
+          "step": 2400,
+          "statistics": [
+            79200,
+            79200,
+            2400,
+            33,
+            0,
+            0,
+            65536,
+            79200,
+            79200,
+            963125,
+            2400,
+            3442044,
+            0,
+            0,
+            2400,
+            33
+          ]
+        },
+        {
+          "step": 5280,
+          "statistics": [
+            174240,
+            174240,
+            5280,
+            33,
+            0,
+            0,
+            65536,
+            174240,
+            174240,
+            2705258,
+            5280,
+            3442044,
+            0,
+            0,
+            5280,
+            33
+          ]
+        },
+        {
+          "step": 7200,
+          "statistics": [
+            237600,
+            237600,
+            7200,
+            33,
+            0,
+            0,
+            65536,
+            237600,
+            237600,
+            3363296,
+            7200,
+            3442044,
+            0,
+            0,
+            7200,
+            33
+          ]
+        },
+        {
+          "step": 9120,
+          "statistics": [
+            300960,
+            300960,
+            9120,
+            33,
+            0,
+            0,
+            65536,
+            300960,
+            300960,
+            3985538,
+            9120,
+            3442044,
+            0,
+            0,
+            9120,
+            33
+          ]
+        },
+        {
+          "step": 11040,
+          "statistics": [
+            364320,
+            364320,
+            11040,
+            33,
+            0,
+            0,
+            65536,
+            364320,
+            364320,
+            4666270,
+            11040,
+            3442044,
+            0,
+            0,
+            11040,
+            33
+          ]
+        },
+        {
+          "step": 12000,
+          "statistics": [
+            396000,
+            396000,
+            12000,
+            33,
+            0,
+            0,
+            65536,
+            396000,
+            396000,
+            4813572,
+            12000,
+            3442044,
+            0,
+            0,
+            12000,
+            33
+          ]
+        },
+        {
+          "step": 12960,
+          "statistics": [
+            427680,
+            427680,
+            12960,
+            33,
+            0,
+            0,
+            65536,
+            427680,
+            427680,
+            4813572,
+            12960,
+            3442044,
+            0,
+            0,
+            12960,
+            33
+          ]
+        }
+      ]
+    },
+    "release_certificate_passed": true,
+    "measurements": {
+      "placement_error_m": 0.0003543736934661923,
+      "hold_error_m": 0.00017422056198118652,
+      "minimum_lift_m": 0.034711634397506685,
+      "minimum_clearance_m": 0.03365721506235336,
+      "relative_drift_m": 0.0007890507464653995,
+      "min_J": 0.23864922184942794,
+      "penetration_m": 1.3389166620025872e-05
+    },
+    "placement_gates": {
+      "error_3mm": true,
+      "hold_3mm": true,
+      "support_95percent": true,
+      "noninversion": true,
+      "penetration_1mm": true,
+      "actual_release_at_endpoint": true,
+      "no_attachments": true
+    },
+    "regrasp_gates": {
+      "centroid_lift": true,
+      "unsupported": true,
+      "retained_relative_position": true,
+      "noninversion": true,
+      "penetration": true,
+      "pre_regrasp_release": true,
+      "no_attachments": true,
+      "dynamic_nodes": true,
+      "visual_reacquisition": true
+    },
+    "raw_trajectory_sha256": "4741ffec3280df45646dbef8a83f6a2c2901e1a87875578496a5ff87b83b0d0f"
+  }
+]

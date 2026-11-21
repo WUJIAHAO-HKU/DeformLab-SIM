@@ -1,0 +1,26 @@
+{
+  "condition": 1,
+  "young_pa": 95000.0,
+  "poisson": 0.3,
+  "hz": 960,
+  "nodes": 2197,
+  "tets": 10368,
+  "boundary_nodes": 866,
+  "rest_float32_sha256": "5211c8d1c5d8e23f55f20bbe1c4c6703f7288a1f14660c8177e06ae456062509",
+  "topology_uint32_sha256": "a6be3701c98bd54fc3dc3275d432cbadb118f488c830c4f6ee540cfa05e21888",
+  "reference_sha256": "4a34606052549f17a77861415d851f2f954338b4baaaab9d85745370f62fc22b",
+  "source_archive": "archive/dev-c1-Dense-a2.zip",
+  "estimator": "Sum of single-contact, reference-linear-elastic horizontal response envelopes; approximate for native nonlinear coupled contact",
+  "checks": {
+    "rigid_translation_residual": 5.640093242066331e-16,
+    "symmetry_residual": 7.26403025850831e-17,
+    "linear_solve_max_residual": 4.884981308350689e-15,
+    "single_contact_kkt_residual": 1.3906941467631796e-15,
+    "single_contact_work_relative_error": 1.105224408120457e-15,
+    "minimum_normal_compliance_m_per_n": 0.0021346156804222752,
+    "gain_min": 0.08028983899894558,
+    "gain_max": 0.46199757529572305,
+    "gain_median": 0.12282331792205467
+  },
+  "wall_s": 2.640341399994213
+}

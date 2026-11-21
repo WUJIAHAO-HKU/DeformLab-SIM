@@ -1,0 +1,2012 @@
+{
+  "status": "three_level_refinement_measured",
+  "rates_hz": [
+    480,
+    960,
+    1920
+  ],
+  "comparison_isolated_by_recorded_initial_and_material_state": true,
+  "compatibility": [
+    {
+      "hz": 480,
+      "checks": {
+        "initial_soft_positions": true,
+        "initial_soft_velocities": true,
+        "initial_q": true,
+        "initial_v": true,
+        "initial_generalized_mass_matrix": true,
+        "initial_soft_inverse_masses": true,
+        "native_Q": true,
+        "native_ordered_elements": true,
+        "mass": true,
+        "native_soft_settings": true,
+        "native_rigid_settings": true,
+        "contact_material_readback": true,
+        "effort_schedule": true,
+        "rest": true,
+        "elements": true
+      },
+      "all_match": true
+    },
+    {
+      "hz": 960,
+      "checks": {
+        "initial_soft_positions": true,
+        "initial_soft_velocities": true,
+        "initial_q": true,
+        "initial_v": true,
+        "initial_generalized_mass_matrix": true,
+        "initial_soft_inverse_masses": true,
+        "native_Q": true,
+        "native_ordered_elements": true,
+        "mass": true,
+        "native_soft_settings": true,
+        "native_rigid_settings": true,
+        "contact_material_readback": true,
+        "effort_schedule": true,
+        "rest": true,
+        "elements": true
+      },
+      "all_match": true
+    },
+    {
+      "hz": 1920,
+      "checks": {
+        "initial_soft_positions": true,
+        "initial_soft_velocities": true,
+        "initial_q": true,
+        "initial_v": true,
+        "initial_generalized_mass_matrix": true,
+        "initial_soft_inverse_masses": true,
+        "native_Q": true,
+        "native_ordered_elements": true,
+        "mass": true,
+        "native_soft_settings": true,
+        "native_rigid_settings": true,
+        "contact_material_readback": true,
+        "effort_schedule": true,
+        "rest": true,
+        "elements": true
+      },
+      "all_match": true
+    }
+  ],
+  "phases_by_rate": [
+    {
+      "hz": 480,
+      "phases": [
+        {
+          "phase": "zero_effort",
+          "joint": {
+            "phase": "zero_effort",
+            "frames": [
+              1,
+              24
+            ],
+            "actuator_boundary_work_J": 0.0,
+            "delta_Ksoft_J": 9.025472240008962e-11,
+            "delta_Kart_J": 7.056105270555119e-12,
+            "delta_U_J": 4.4718582499685034e-12,
+            "physical_target_residual": {
+              "signed_sum_J": 1.0178268592050312e-10,
+              "sum_absolute_J": 1.987012123447361e-10,
+              "maximum_absolute_J": 2.0586814102186545e-11
+            },
+            "maximum_absolute_cumulative_residual_J": 1.151047440879985e-10,
+            "signed_residual_over_actuator_work": null,
+            "contact_position_delta_U": {
+              "signed_sum_J": -1.0824838569992623e-12,
+              "sum_absolute_J": 1.0845060657845902e-12,
+              "maximum_absolute_J": 3.0804665409528525e-13
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": -3.762988384733663e-11,
+                "sum_absolute_J": 3.9028327586541556e-11,
+                "maximum_absolute_J": 6.104190820761858e-12
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": 1.394125817465224e-10,
+                "sum_absolute_J": 1.9854008092763856e-10,
+                "maximum_absolute_J": 2.2174666894055426e-11
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": -9.200934704155921e-18,
+                "sum_absolute_J": 3.047463507352325e-17,
+                "maximum_absolute_J": 6.896978163359767e-18
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -2.7777479557313273e-18,
+                "sum_absolute_J": 2.8664505706232236e-18,
+                "maximum_absolute_J": 1.8007158483110596e-18
+              },
+              "force_prediction_error": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": -1.1914955112458162e-26,
+              "sum_absolute_J": 9.713717642529451e-26,
+              "maximum_absolute_J": 1.2924697071141057e-26
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": 1.0178268592050312e-10,
+            "sum_absolute": 1.987012123447361e-10,
+            "max_absolute": 2.0586814102186545e-11
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 9.284440608833462e-12,
+            "sum_absolute": 9.284440608833462e-12,
+            "max_absolute": 8.39095334211672e-13
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": 1.438517947588617e-10,
+            "sum_absolute": 1.992741606682299e-10,
+            "max_absolute": 2.3206095859666413e-11
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 3.027838415142819e-10,
+          "material_root_delta_U_J": {
+            "signed_sum": -1.4936354407229662e-12,
+            "sum_absolute": 1.4936354407229662e-12,
+            "max_absolute": 1.3059767953254883e-13
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": 1.338582396396648e-10,
+            "sum_absolute": 1.9718367720718926e-10,
+            "max_absolute": 2.2550226601521622e-11
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -1.0824838569992623e-12,
+            "sum_absolute": 1.0845060657845902e-12,
+            "max_absolute": 3.0804665409528525e-13
+          },
+          "target_min_J": 0.9999963660511771
+        },
+        {
+          "phase": "loading",
+          "joint": {
+            "phase": "loading",
+            "frames": [
+              25,
+              72
+            ],
+            "actuator_boundary_work_J": 9.718631956313915e-06,
+            "delta_Ksoft_J": 1.1574319281787768e-06,
+            "delta_Kart_J": 1.575355595544655e-08,
+            "delta_U_J": 9.533561313412009e-06,
+            "physical_target_residual": {
+              "signed_sum_J": 9.881148412323185e-07,
+              "sum_absolute_J": 4.99805954800908e-06,
+              "maximum_absolute_J": 3.427402837285769e-07
+            },
+            "maximum_absolute_cumulative_residual_J": 1.6302304284077832e-06,
+            "signed_residual_over_actuator_work": 0.10167221535643901,
+            "contact_position_delta_U": {
+              "signed_sum_J": -5.582582637914387e-05,
+              "sum_absolute_J": 5.6039449452738905e-05,
+              "maximum_absolute_J": 4.568588694302977e-06
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 7.215343085660157e-05,
+                "sum_absolute_J": 7.215343085660157e-05,
+                "maximum_absolute_J": 5.028881506212907e-06
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -7.13060050171486e-05,
+                "sum_absolute_J": 7.13060050171486e-05,
+                "maximum_absolute_J": 4.6957744323899185e-06
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": 1.4071676837766788e-07,
+                "sum_absolute_J": 1.9075734142179703e-07,
+                "maximum_absolute_J": 9.645776832007708e-09
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": -1.0210948512539009e-11,
+                "sum_absolute_J": 1.1440469898216603e-10,
+                "maximum_absolute_J": 1.368915169851811e-11
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -3.249266615435654e-12,
+                "sum_absolute_J": 1.4398368299560937e-11,
+                "maximum_absolute_J": 1.6654225222733726e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": -1.4306383200803224e-11,
+                "sum_absolute_J": 2.854209043529841e-11,
+                "maximum_absolute_J": 1.1317241748150713e-12
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 3.461750863534421e-21,
+              "sum_absolute_J": 1.7621511307278404e-19,
+              "maximum_absolute_J": 2.760798012456985e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": 9.881148412323185e-07,
+            "sum_absolute": 4.99805954800908e-06,
+            "max_absolute": 3.427402837285769e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 1.8199437457692788e-05,
+            "sum_absolute": 1.8199437457692788e-05,
+            "max_absolute": 1.005675938561475e-06
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": -0.00017294156202208357,
+            "sum_absolute": 0.00017294156202208357,
+            "max_absolute": 1.1170636465745165e-05
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 0.0001962293740810813,
+          "material_root_delta_U_J": {
+            "signed_sum": -4.442107161216405e-05,
+            "sum_absolute": 4.442107161216405e-05,
+            "max_absolute": 2.6045556120194995e-06
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": -0.0001366653927097045,
+            "sum_absolute": 0.0001366653927097045,
+            "max_absolute": 9.296675043051107e-06
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -5.582582637914387e-05,
+            "sum_absolute": 5.6039449452738905e-05,
+            "max_absolute": 4.568588694302977e-06
+          },
+          "target_min_J": 0.997819486661383
+        },
+        {
+          "phase": "unloading",
+          "joint": {
+            "phase": "unloading",
+            "frames": [
+              73,
+              120
+            ],
+            "actuator_boundary_work_J": 0.00030897784041580313,
+            "delta_Ksoft_J": 4.2254021124443533e-07,
+            "delta_Kart_J": 0.0003151211352084663,
+            "delta_U_J": -9.313779864413663e-06,
+            "physical_target_residual": {
+              "signed_sum_J": -2.747944860506021e-06,
+              "sum_absolute_J": 2.9615072137291244e-06,
+              "maximum_absolute_J": 5.76553344455081e-07
+            },
+            "maximum_absolute_cumulative_residual_J": 2.747944860506021e-06,
+            "signed_residual_over_actuator_work": -0.008893663237493044,
+            "contact_position_delta_U": {
+              "signed_sum_J": -1.6185225591198762e-05,
+              "sum_absolute_J": 1.6185225591198762e-05,
+              "maximum_absolute_J": 4.157214096923124e-06
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 1.6097045197024232e-05,
+                "sum_absolute_J": 1.612544473261714e-05,
+                "maximum_absolute_J": 4.1565647253973135e-06
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -1.8628881337935817e-05,
+                "sum_absolute_J": 1.8630887628986584e-05,
+                "maximum_absolute_J": 4.067081765762584e-06
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": -2.1182258586751612e-07,
+                "sum_absolute_J": 2.1182258586751612e-07,
+                "maximum_absolute_J": 1.5431074822869908e-08
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": -5.496452733583085e-13,
+                "sum_absolute_J": 1.256516033049757e-11,
+                "maximum_absolute_J": 4.953782951166552e-12
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -1.538306680476738e-12,
+                "sum_absolute_J": 2.0265427005140567e-11,
+                "maximum_absolute_J": 9.505959106578863e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": -4.284045775030109e-09,
+                "sum_absolute_J": 4.677722613095055e-09,
+                "maximum_absolute_J": 1.7913007057553912e-10
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 6.293851844793477e-20,
+              "sum_absolute_J": 4.666357445983144e-19,
+              "maximum_absolute_J": 3.2663708028493957e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": -2.747944860506021e-06,
+            "sum_absolute": 2.9615072137291244e-06,
+            "max_absolute": 5.76553344455081e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 4.265740395012837e-06,
+            "sum_absolute": 4.265740395012837e-06,
+            "max_absolute": 9.063964159785512e-07
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": -3.3560500655146244e-05,
+            "sum_absolute": 3.949982489077762e-05,
+            "max_absolute": 9.522454365243282e-06
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 5.676563597250856e-05,
+          "material_root_delta_U_J": {
+            "signed_sum": -1.1240309050584695e-05,
+            "sum_absolute": 1.1240309050584695e-05,
+            "max_absolute": 2.3036111093542214e-06
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": -2.5500327064720894e-05,
+            "sum_absolute": 3.2433404757268506e-05,
+            "max_absolute": 7.643960532806391e-06
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -1.6185225591198762e-05,
+            "sum_absolute": 1.6185225591198762e-05,
+            "max_absolute": 4.157214096923124e-06
+          },
+          "target_min_J": 0.997921139529505
+        },
+        {
+          "phase": "whole",
+          "joint": {
+            "phase": "whole",
+            "frames": [
+              1,
+              120
+            ],
+            "actuator_boundary_work_J": 0.00031869647237211705,
+            "delta_Ksoft_J": 1.5800623941456122e-06,
+            "delta_Kart_J": 0.000315136895820527,
+            "delta_U_J": 2.1978592085659516e-07,
+            "physical_target_residual": {
+              "signed_sum_J": -1.7597282365877818e-06,
+              "sum_absolute_J": 7.95976546295055e-06,
+              "maximum_absolute_J": 5.76553344455081e-07
+            },
+            "maximum_absolute_cumulative_residual_J": 1.759728236587782e-06,
+            "signed_residual_over_actuator_work": -0.00552164328487792,
+            "contact_position_delta_U": {
+              "signed_sum_J": -7.20110530528265e-05,
+              "sum_absolute_J": 7.222467612844372e-05,
+              "maximum_absolute_J": 4.568588694302977e-06
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 8.825043842374198e-05,
+                "sum_absolute_J": 8.827891461754632e-05,
+                "maximum_absolute_J": 5.028881506212907e-06
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -8.993474694250268e-05,
+                "sum_absolute_J": 8.993709118621612e-05,
+                "maximum_absolute_J": 4.6957744323899185e-06
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": -7.110581748984825e-08,
+                "sum_absolute_J": 4.0257992728931315e-07,
+                "maximum_absolute_J": 1.5431074822869908e-08
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": -1.0760602986832024e-11,
+                "sum_absolute_J": 1.2696988978729868e-10,
+                "maximum_absolute_J": 1.368915169851811e-11
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -4.787576073660348e-12,
+                "sum_absolute_J": 3.466379817115208e-11,
+                "maximum_absolute_J": 9.505959106578863e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": -4.298352158230912e-09,
+                "sum_absolute_J": 4.706264703530353e-09,
+                "maximum_absolute_J": 1.7913007057553912e-10
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 6.640025739651408e-20,
+              "sum_absolute_J": 6.428509548082749e-19,
+              "maximum_absolute_J": 3.2663708028493957e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": -1.7597282365877818e-06,
+            "sum_absolute": 7.95976546295055e-06,
+            "max_absolute": 5.76553344455081e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 2.2465187137146236e-05,
+            "sum_absolute": 2.2465187137146236e-05,
+            "max_absolute": 1.005675938561475e-06
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": -0.00020650191882543503,
+            "sum_absolute": 0.00021244158618702186,
+            "max_absolute": 1.1170636465745165e-05
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 0.00025299531283743136,
+          "material_root_delta_U_J": {
+            "signed_sum": -5.566138215638418e-05,
+            "sum_absolute": 5.566138215638418e-05,
+            "max_absolute": 2.6045556120194995e-06
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": -0.00016216558591618574,
+            "sum_absolute": 0.00016909899465065021,
+            "max_absolute": 9.296675043051107e-06
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -7.20110530528265e-05,
+            "sum_absolute": 7.222467612844372e-05,
+            "max_absolute": 4.568588694302977e-06
+          },
+          "target_min_J": 0.997819486661383
+        }
+      ]
+    },
+    {
+      "hz": 960,
+      "phases": [
+        {
+          "phase": "zero_effort",
+          "joint": {
+            "phase": "zero_effort",
+            "frames": [
+              1,
+              48
+            ],
+            "actuator_boundary_work_J": 0.0,
+            "delta_Ksoft_J": 3.9159757088817097e-10,
+            "delta_Kart_J": 5.137817206615941e-14,
+            "delta_U_J": 3.5289750248350786e-12,
+            "physical_target_residual": {
+              "signed_sum_J": 3.9517792408503116e-10,
+              "sum_absolute_J": 5.590819384665569e-10,
+              "maximum_absolute_J": 2.805158588929624e-11
+            },
+            "maximum_absolute_cumulative_residual_J": 4.0455423149101806e-10,
+            "signed_residual_over_actuator_work": null,
+            "contact_position_delta_U": {
+              "signed_sum_J": -7.386717095325268e-13,
+              "sum_absolute_J": 7.430155794763726e-13,
+              "maximum_absolute_J": 2.3778325050577003e-13
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": -5.034446410353511e-11,
+                "sum_absolute_J": 5.203509273005292e-11,
+                "maximum_absolute_J": 6.0773692601877446e-12
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": 4.45522439288719e-10,
+                "sum_absolute_J": 5.945561517203339e-10,
+                "maximum_absolute_J": 2.8051585889296267e-11
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": -5.1093369230198756e-17,
+                "sum_absolute_J": 6.590037159668413e-17,
+                "maximum_absolute_J": 5.631866625603808e-18
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -6.783523217982385e-21,
+                "sum_absolute_J": 7.843018939429163e-20,
+                "maximum_absolute_J": 1.0888386848485655e-20
+              },
+              "force_prediction_error": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 2.9888361977013695e-26,
+              "sum_absolute_J": 5.937282717055423e-25,
+              "maximum_absolute_J": 4.2005265481208437e-26
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": 3.951779240850312e-10,
+            "sum_absolute": 5.434223259179792e-10,
+            "max_absolute": 5.4865382056639044e-11
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 3.4678871626472632e-12,
+            "sum_absolute": 3.4678871626472632e-12,
+            "max_absolute": 1.232098299937308e-13
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": 4.389860422033925e-10,
+            "sum_absolute": 5.942593288111929e-10,
+            "max_absolute": 2.8527296045983646e-11
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 6.260308979905984e-10,
+          "material_root_delta_U_J": {
+            "signed_sum": -6.343091253195407e-13,
+            "sum_absolute": 6.343091253195407e-13,
+            "max_absolute": 2.238156254093155e-14
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": 4.4125479255439235e-10,
+            "sum_absolute": 5.922670019335583e-10,
+            "max_absolute": 2.814408352864356e-11
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -7.386717095325268e-13,
+            "sum_absolute": 7.430155794763726e-13,
+            "max_absolute": 2.3778325050577003e-13
+          },
+          "target_min_J": 0.9999893584673024
+        },
+        {
+          "phase": "loading",
+          "joint": {
+            "phase": "loading",
+            "frames": [
+              49,
+              144
+            ],
+            "actuator_boundary_work_J": 9.444308277161537e-06,
+            "delta_Ksoft_J": 7.231540824263044e-08,
+            "delta_Kart_J": 2.9379412474304397e-08,
+            "delta_U_J": 8.896967140166793e-06,
+            "physical_target_residual": {
+              "signed_sum_J": -4.456463162777668e-07,
+              "sum_absolute_J": 1.4926296663492475e-06,
+              "maximum_absolute_J": 6.950154082270617e-08
+            },
+            "maximum_absolute_cumulative_residual_J": 4.456463162777668e-07,
+            "signed_residual_over_actuator_work": -0.04718676087220065,
+            "contact_position_delta_U": {
+              "signed_sum_J": -3.1052358111997756e-06,
+              "sum_absolute_J": 8.290893774314813e-06,
+              "maximum_absolute_J": 4.761891710426121e-07
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 1.4772663037926717e-05,
+                "sum_absolute_J": 1.4793068357754408e-05,
+                "maximum_absolute_J": 5.89784018255105e-07
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -1.5288636910694527e-05,
+                "sum_absolute_J": 1.529007592217517e-05,
+                "maximum_absolute_J": 5.450005470012509e-07
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": 7.02535735562823e-08,
+                "sum_absolute_J": 9.90460282819095e-08,
+                "maximum_absolute_J": 2.63214319922822e-09
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": 8.958855035525241e-12,
+                "sum_absolute_J": 1.0074008138878305e-10,
+                "maximum_absolute_J": 1.3965174333086682e-11
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": 1.6024489695869322e-12,
+                "sum_absolute_J": 2.578027538861935e-11,
+                "maximum_absolute_J": 1.640568120581813e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": 6.342162970365096e-11,
+                "sum_absolute_J": 1.9768208669907196e-10,
+                "maximum_absolute_J": 6.380178383400509e-12
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 5.15799844690863e-20,
+              "sum_absolute_J": 1.9177861969554582e-19,
+              "maximum_absolute_J": 1.6623021589865644e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": -4.456463162777668e-07,
+            "sum_absolute": 1.0951093481193998e-06,
+            "max_absolute": 7.918415625925957e-08
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 7.766625100253664e-06,
+            "sum_absolute": 7.766625100253664e-06,
+            "max_absolute": 2.1265716379222876e-07
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": -4.20478588948468e-05,
+            "sum_absolute": 4.3645468762024795e-05,
+            "max_absolute": 1.6368364347758792e-06
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 6.247749832170046e-05,
+          "material_root_delta_U_J": {
+            "signed_sum": -1.3614806694618395e-05,
+            "sum_absolute": 1.3614806694618395e-05,
+            "max_absolute": 3.742443273182448e-07
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": -2.7290839862061138e-05,
+            "sum_absolute": 3.079001546839471e-05,
+            "max_absolute": 1.146162058840759e-06
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -3.1052358111997756e-06,
+            "sum_absolute": 8.290893774314813e-06,
+            "max_absolute": 4.761891710426121e-07
+          },
+          "target_min_J": 0.9977983911797659
+        },
+        {
+          "phase": "unloading",
+          "joint": {
+            "phase": "unloading",
+            "frames": [
+              145,
+              240
+            ],
+            "actuator_boundary_work_J": 0.000312408658208827,
+            "delta_Ksoft_J": 1.7210942354751786e-06,
+            "delta_Kart_J": 0.0003188078140407752,
+            "delta_U_J": -8.481367286278826e-06,
+            "physical_target_residual": {
+              "signed_sum_J": -3.611172188554637e-07,
+              "sum_absolute_J": 1.5878556891551529e-06,
+              "maximum_absolute_J": 1.5749369659981852e-07
+            },
+            "maximum_absolute_cumulative_residual_J": 4.820467262377944e-07,
+            "signed_residual_over_actuator_work": -0.0011559129664520304,
+            "contact_position_delta_U": {
+              "signed_sum_J": -6.933991830551045e-07,
+              "sum_absolute_J": 2.1592319588280845e-06,
+              "maximum_absolute_J": 3.2456950875691835e-07
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 2.278295324920186e-06,
+                "sum_absolute_J": 2.4946619612138237e-06,
+                "maximum_absolute_J": 2.877918324094275e-07
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -2.5275495672462467e-06,
+                "sum_absolute_J": 2.77917404914762e-06,
+                "maximum_absolute_J": 2.3394855202070685e-07
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": -1.0711009756000915e-07,
+                "sum_absolute_J": 1.0711009756000915e-07,
+                "maximum_absolute_J": 3.824053767376515e-09
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": 7.204252657097115e-12,
+                "sum_absolute_J": 1.2011487712095418e-11,
+                "maximum_absolute_J": 3.1691870688751707e-12
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -8.532821810477421e-12,
+                "sum_absolute_J": 2.6616774300221604e-11,
+                "maximum_absolute_J": 4.9376340284227035e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": -4.751550400251573e-09,
+                "sum_absolute_J": 4.795061457140499e-09,
+                "maximum_absolute_J": 9.05136130333235e-11
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 1.092540153060039e-20,
+              "sum_absolute_J": 8.884382999962547e-19,
+              "maximum_absolute_J": 4.2722224277138773e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": -3.6111721885546374e-07,
+            "sum_absolute": 1.4484736984402452e-06,
+            "max_absolute": 3.080593607334556e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 1.7339268282716781e-06,
+            "sum_absolute": 1.7339268282716781e-06,
+            "max_absolute": 1.9795097651258777e-07
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": 2.99046590908045e-06,
+            "sum_absolute": 2.1352434132250163e-05,
+            "max_absolute": 8.394537076154552e-07
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 2.8119438915696783e-05,
+          "material_root_delta_U_J": {
+            "signed_sum": -2.3905095476930977e-06,
+            "sum_absolute": 2.3905095476930977e-06,
+            "max_absolute": 3.538540317345511e-07
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": 5.260418535977507e-06,
+            "sum_absolute": 2.275469245753244e-05,
+            "max_absolute": 1.0038325015864027e-06
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -6.933991830551045e-07,
+            "sum_absolute": 2.1592319588280845e-06,
+            "max_absolute": 3.2456950875691835e-07
+          },
+          "target_min_J": 0.9986004837192143
+        },
+        {
+          "phase": "whole",
+          "joint": {
+            "phase": "whole",
+            "frames": [
+              1,
+              240
+            ],
+            "actuator_boundary_work_J": 0.00032185296648598854,
+            "delta_Ksoft_J": 1.7938012412886972e-06,
+            "delta_Kart_J": 0.00031883719350462767,
+            "delta_U_J": 4.15603382862992e-07,
+            "physical_target_residual": {
+              "signed_sum_J": -8.063683572091455e-07,
+              "sum_absolute_J": 3.081044437442867e-06,
+              "maximum_absolute_J": 1.5749369659981852e-07
+            },
+            "maximum_absolute_cumulative_residual_J": 8.126470415551851e-07,
+            "signed_residual_over_actuator_work": -0.002505393583949613,
+            "contact_position_delta_U": {
+              "signed_sum_J": -3.7986357329265896e-06,
+              "sum_absolute_J": 1.0450126476158478e-05,
+              "maximum_absolute_J": 4.761891710426121e-07
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 1.70509080183828e-05,
+                "sum_absolute_J": 1.7287782354060963e-05,
+                "maximum_absolute_J": 5.89784018255105e-07
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -1.781574095550148e-05,
+                "sum_absolute_J": 1.8069844527474513e-05,
+                "maximum_absolute_J": 5.450005470012509e-07
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": -3.6856524003726857e-08,
+                "sum_absolute_J": 2.0615612584191865e-07,
+                "maximum_absolute_J": 3.824053767376515e-09
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": 1.6163056599253126e-11,
+                "sum_absolute_J": 1.1275163500125007e-10,
+                "maximum_absolute_J": 1.3965174333086682e-11
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -6.930372847674012e-12,
+                "sum_absolute_J": 5.239704976727114e-11,
+                "maximum_absolute_J": 4.9376340284227035e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": -4.688128770547922e-09,
+                "sum_absolute_J": 4.992743543839571e-09,
+                "maximum_absolute_J": 9.05136130333235e-11
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 6.250541588804867e-20,
+              "sum_absolute_J": 1.0802175134200722e-18,
+              "maximum_absolute_J": 4.2722224277138773e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": -8.063683572091456e-07,
+            "sum_absolute": 2.5441264688855634e-06,
+            "max_absolute": 3.080593607334556e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 9.500555396412506e-06,
+            "sum_absolute": 9.500555396412506e-06,
+            "max_absolute": 2.1265716379222876e-07
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": -3.905695399972415e-05,
+            "sum_absolute": 6.499849715360377e-05,
+            "max_absolute": 1.6368364347758792e-06
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 9.059756326829525e-05,
+          "material_root_delta_U_J": {
+            "signed_sum": -1.600531687662062e-05,
+            "sum_absolute": 1.600531687662062e-05,
+            "max_absolute": 3.742443273182448e-07
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": -2.202998007129108e-05,
+            "sum_absolute": 5.3545300192929084e-05,
+            "max_absolute": 1.146162058840759e-06
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -3.7986357329265896e-06,
+            "sum_absolute": 1.0450126476158478e-05,
+            "max_absolute": 4.761891710426121e-07
+          },
+          "target_min_J": 0.9977983911797659
+        }
+      ]
+    },
+    {
+      "hz": 1920,
+      "phases": [
+        {
+          "phase": "zero_effort",
+          "joint": {
+            "phase": "zero_effort",
+            "frames": [
+              1,
+              96
+            ],
+            "actuator_boundary_work_J": 0.0,
+            "delta_Ksoft_J": 1.0466238811395145e-09,
+            "delta_Kart_J": 4.619126833983906e-14,
+            "delta_U_J": 3.801371575988041e-12,
+            "physical_target_residual": {
+              "signed_sum_J": 1.0504714439838032e-09,
+              "sum_absolute_J": 1.0970880721440551e-09,
+              "maximum_absolute_J": 3.607861336781836e-11
+            },
+            "maximum_absolute_cumulative_residual_J": 1.0599462783250112e-09,
+            "signed_residual_over_actuator_work": null,
+            "contact_position_delta_U": {
+              "signed_sum_J": -1.3904835609749514e-12,
+              "sum_absolute_J": 1.53797898169758e-12,
+              "maximum_absolute_J": 3.08850557692939e-13
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": -1.4040562312936662e-10,
+                "sum_absolute_J": 1.422567953986045e-10,
+                "maximum_absolute_J": 1.6992318031645095e-11
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": 1.190877238964687e-09,
+                "sum_absolute_J": 1.2098892318872599e-09,
+                "maximum_absolute_J": 3.6273554840075955e-11
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": -1.718129764730938e-16,
+                "sum_absolute_J": 2.660594453450891e-16,
+                "maximum_absolute_J": 2.1360375280586728e-17
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -3.854063889246053e-20,
+                "sum_absolute_J": 1.7462307342031228e-19,
+                "maximum_absolute_J": 2.169141752983778e-20
+              },
+              "force_prediction_error": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": -6.442153696396871e-26,
+              "sum_absolute_J": 2.1259107198109674e-24,
+              "maximum_absolute_J": 1.6155871338926322e-25
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": 1.050471443983803e-09,
+            "sum_absolute": 1.050471443983803e-09,
+            "max_absolute": 9.822935330273974e-11
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 2.235681852500895e-12,
+            "sum_absolute": 2.235681852500895e-12,
+            "max_absolute": 6.168281149306891e-14
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": 1.1737676448562942e-09,
+            "sum_absolute": 1.1956757381968075e-09,
+            "max_absolute": 3.6291772213501675e-11
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 1.2260165041817872e-09,
+          "material_root_delta_U_J": {
+            "signed_sum": -5.730538915075207e-13,
+            "sum_absolute": 5.73055555763135e-13,
+            "max_absolute": 1.7268105442010042e-14
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": 1.1856853838277634e-09,
+            "sum_absolute": 1.2064707662867198e-09,
+            "max_absolute": 3.6396726210627515e-11
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": -1.3904835609749514e-12,
+            "sum_absolute": 1.53797898169758e-12,
+            "max_absolute": 3.08850557692939e-13
+          },
+          "target_min_J": 0.9999871233248387
+        },
+        {
+          "phase": "loading",
+          "joint": {
+            "phase": "loading",
+            "frames": [
+              97,
+              288
+            ],
+            "actuator_boundary_work_J": 9.484681647654858e-06,
+            "delta_Ksoft_J": 2.601763323917633e-07,
+            "delta_Kart_J": 2.7906872386303972e-08,
+            "delta_U_J": 8.85582491970621e-06,
+            "physical_target_residual": {
+              "signed_sum_J": -3.40773523170655e-07,
+              "sum_absolute_J": 2.0043810554674997e-06,
+              "maximum_absolute_J": 5.871275665745402e-08
+            },
+            "maximum_absolute_cumulative_residual_J": 3.591071003006462e-07,
+            "signed_residual_over_actuator_work": -0.03592883091178007,
+            "contact_position_delta_U": {
+              "signed_sum_J": 3.26180162137165e-06,
+              "sum_absolute_J": 3.6283213199935667e-06,
+              "maximum_absolute_J": 7.790802398728182e-08
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 2.24570872622406e-06,
+                "sum_absolute_J": 3.002096082675406e-06,
+                "maximum_absolute_J": 6.52601319953205e-08
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -2.6224881281135545e-06,
+                "sum_absolute_J": 2.892867000632607e-06,
+                "maximum_absolute_J": 6.718637887087364e-08
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": 3.602904898608508e-08,
+                "sum_absolute_J": 5.129566878782878e-08,
+                "maximum_absolute_J": 6.815279400786071e-10
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": 5.313983669980827e-12,
+                "sum_absolute_J": 6.614175009269388e-11,
+                "maximum_absolute_J": 2.7591742930722625e-12
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": 3.263547572219507e-12,
+                "sum_absolute_J": 5.3426417987216353e-11,
+                "maximum_absolute_J": 2.088595380177159e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": -3.174779849518428e-11,
+                "sum_absolute_J": 3.604384811907845e-10,
+                "maximum_absolute_J": 3.7432890031669225e-12
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 7.291235208136947e-21,
+              "sum_absolute_J": 1.108509391773258e-19,
+              "maximum_absolute_J": 5.18683603101376e-21
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": -3.40773523170655e-07,
+            "sum_absolute": 1.074182761141667e-06,
+            "max_absolute": 1.1415962787809606e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 3.844464113484478e-06,
+            "sum_absolute": 3.844464113484478e-06,
+            "max_absolute": 5.210033360925902e-08
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": -5.156426238057141e-06,
+            "sum_absolute": 2.7434377484792158e-05,
+            "max_absolute": 4.257495266752489e-07
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 3.9127707596109154e-05,
+          "material_root_delta_U_J": {
+            "signed_sum": -4.699080737552691e-06,
+            "sum_absolute": 4.699080737552691e-06,
+            "max_absolute": 6.852748359531436e-08
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": -8.216511426448041e-06,
+            "sum_absolute": 2.8015148376808526e-05,
+            "max_absolute": 4.44923206278672e-07
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": 3.26180162137165e-06,
+            "sum_absolute": 3.6283213199935667e-06,
+            "max_absolute": 7.790802398728182e-08
+          },
+          "target_min_J": 0.998521142462285
+        },
+        {
+          "phase": "unloading",
+          "joint": {
+            "phase": "unloading",
+            "frames": [
+              289,
+              480
+            ],
+            "actuator_boundary_work_J": 0.00031440896523352095,
+            "delta_Ksoft_J": 1.5165537719223565e-06,
+            "delta_Kart_J": 0.0003213090984604904,
+            "delta_U_J": -8.393534413412738e-06,
+            "physical_target_residual": {
+              "signed_sum_J": 2.3152585479034718e-08,
+              "sum_absolute_J": 1.1706974142984925e-06,
+              "maximum_absolute_J": 6.471468460916651e-08
+            },
+            "maximum_absolute_cumulative_residual_J": 3.4947769820578326e-07,
+            "signed_residual_over_actuator_work": 7.363843922783373e-05,
+            "contact_position_delta_U": {
+              "signed_sum_J": 4.5928498516606744e-08,
+              "sum_absolute_J": 6.981448927337219e-07,
+              "maximum_absolute_J": 5.775866650197453e-08
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 5.861905490914828e-07,
+                "sum_absolute_J": 8.725113194946741e-07,
+                "maximum_absolute_J": 8.088936996413183e-08
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -5.535649394264e-07,
+                "sum_absolute_J": 9.245740161353881e-07,
+                "maximum_absolute_J": 4.142248551458028e-08
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": -5.5790885142890044e-08,
+                "sum_absolute_J": 5.5790885142890044e-08,
+                "maximum_absolute_J": 1.078093571551639e-09
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": -3.631608399171271e-12,
+                "sum_absolute_J": 1.4666303170443878e-11,
+                "maximum_absolute_J": 1.90441699959879e-12
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -7.296718194782289e-12,
+                "sum_absolute_J": 5.225456030415294e-11,
+                "maximum_absolute_J": 7.569999880082288e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": 4.632878928343953e-08,
+                "sum_absolute_J": 4.909700171329678e-08,
+                "maximum_absolute_J": 6.286647756046149e-10
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": -3.495665268649095e-21,
+              "sum_absolute_J": 1.919599997243634e-18,
+              "maximum_absolute_J": 5.113961419047838e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": 2.3152585479034718e-08,
+            "sum_absolute": 9.808455793495115e-07,
+            "max_absolute": 1.1910421332064621e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 9.103426840052353e-07,
+            "sum_absolute": 9.103426840052353e-07,
+            "max_absolute": 5.10398376995091e-08
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": 8.448121957090986e-06,
+            "sum_absolute": 2.4846131754288817e-05,
+            "max_absolute": 6.34641930003553e-07
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 2.9210158098998804e-05,
+          "material_root_delta_U_J": {
+            "signed_sum": -8.453988297409454e-07,
+            "sum_absolute": 8.453988297409454e-07,
+            "max_absolute": 6.745381453874954e-08
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": 7.885897972502901e-06,
+            "sum_absolute": 2.44345074642668e-05,
+            "max_absolute": 6.086543022547448e-07
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": 4.5928498516606744e-08,
+            "sum_absolute": 6.981448927337219e-07,
+            "max_absolute": 5.775866650197453e-08
+          },
+          "target_min_J": 0.9986754161499966
+        },
+        {
+          "phase": "whole",
+          "joint": {
+            "phase": "whole",
+            "frames": [
+              1,
+              480
+            ],
+            "actuator_boundary_work_J": 0.0003238936468811758,
+            "delta_Ksoft_J": 1.7777767281952593e-06,
+            "delta_Kart_J": 0.00032133700537906795,
+            "delta_U_J": 4.622943076650495e-07,
+            "physical_target_residual": {
+              "signed_sum_J": -3.1657046624763647e-07,
+              "sum_absolute_J": 3.176175557838136e-06,
+              "maximum_absolute_J": 6.471468460916651e-08
+            },
+            "maximum_absolute_cumulative_residual_J": 3.580566288566624e-07,
+            "signed_residual_over_actuator_work": -0.0009773901689518907,
+            "contact_position_delta_U": {
+              "signed_sum_J": 3.3077287294046954e-06,
+              "sum_absolute_J": 4.32646775070627e-06,
+              "maximum_absolute_J": 7.790802398728182e-08
+            },
+            "decomposition": {
+              "contact_impulse_work_and_target_storage": {
+                "signed_sum_J": 2.8317588696924133e-06,
+                "sum_absolute_J": 3.874749658965478e-06,
+                "maximum_absolute_J": 8.088936996413183e-08
+              },
+              "observed_noncontact_soft_energy": {
+                "signed_sum_J": -3.17486219030099e-06,
+                "sum_absolute_J": 3.818650905999883e-06,
+                "maximum_absolute_J": 6.718637887087364e-08
+              },
+              "actuator_impulse_vs_displacement": {
+                "signed_sum_J": -1.976183615680496e-08,
+                "sum_absolute_J": 1.0708655393071881e-07,
+                "maximum_absolute_J": 1.078093571551639e-09
+              },
+              "observed_other_art_energy": {
+                "signed_sum_J": 0.0,
+                "sum_absolute_J": 0.0,
+                "maximum_absolute_J": 0.0
+              },
+              "soft_contact_prediction_error": {
+                "signed_sum_J": 1.6822034578330827e-12,
+                "sum_absolute_J": 8.08083193225831e-11,
+                "maximum_absolute_J": 2.7591742930722625e-12
+              },
+              "art_contact_prediction_error": {
+                "signed_sum_J": -4.033170661103421e-12,
+                "sum_absolute_J": 1.0568097846599237e-10,
+                "maximum_absolute_J": 7.569999880082288e-12
+              },
+              "force_prediction_error": {
+                "signed_sum_J": 4.6297041484944346e-08,
+                "sum_absolute_J": 4.9457440194487565e-08,
+                "maximum_absolute_J": 6.286647756046149e-10
+              }
+            },
+            "accounting_assembly_error": {
+              "signed_sum_J": 3.795505517950888e-21,
+              "sum_absolute_J": 2.0304530623316795e-18,
+              "maximum_absolute_J": 5.113961419047838e-20
+            }
+          },
+          "common480_grid_residual_increments": {
+            "signed_sum": -3.165704662476365e-07,
+            "sum_absolute": 2.0560788119351625e-06,
+            "max_absolute": 1.1910421332064621e-07
+          },
+          "copy_variance_loss_J": {
+            "signed_sum": 4.7548090331715655e-06,
+            "sum_absolute": 4.7548090331715655e-06,
+            "max_absolute": 5.210033360925902e-08
+          },
+          "material_local_target_plus_native_work_J": {
+            "signed_sum": 3.2928694866787024e-06,
+            "sum_absolute": 5.228170491481918e-05,
+            "max_absolute": 6.34641930003553e-07
+          },
+          "material_local_target_plus_native_work_partition_sumabs_J": 6.833909171161215e-05,
+          "material_root_delta_U_J": {
+            "signed_sum": -5.544480140347528e-06,
+            "sum_absolute": 5.544480140349192e-06,
+            "max_absolute": 6.852748359531436e-08
+          },
+          "material_root_delta_K_J": {
+            "signed_sum": -3.2942776856131064e-07,
+            "sum_absolute": 5.245086231184161e-05,
+            "max_absolute": 6.086543022547448e-07
+          },
+          "contact_position_delta_U_J": {
+            "signed_sum": 3.3077287294046954e-06,
+            "sum_absolute": 4.32646775070627e-06,
+            "max_absolute": 7.790802398728182e-08
+          },
+          "target_min_J": 0.998521142462285
+        }
+      ]
+    }
+  ],
+  "trends": {
+    "zero_effort": {
+      "physical_R_J": {
+        "values": [
+          1.0178268592050312e-10,
+          3.9517792408503116e-10,
+          1.0504714439838032e-09
+        ],
+        "absolute_values": [
+          1.0178268592050312e-10,
+          3.9517792408503116e-10,
+          1.0504714439838032e-09
+        ],
+        "absolute_nonincreasing": false,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          3.882565295964807,
+          2.6582240048352785
+        ]
+      },
+      "maximum_cumulative_R_J": {
+        "values": [
+          1.151047440879985e-10,
+          4.0455423149101806e-10,
+          1.0599462783250112e-09
+        ],
+        "absolute_values": [
+          1.151047440879985e-10,
+          4.0455423149101806e-10,
+          1.0599462783250112e-09
+        ],
+        "absolute_nonincreasing": false,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          3.514661664872241,
+          2.620035080138679
+        ]
+      },
+      "common_grid_residual_total_variation_J": {
+        "values": [
+          1.987012123447361e-10,
+          5.434223259179792e-10,
+          1.050471443983803e-09
+        ],
+        "absolute_values": [
+          1.987012123447361e-10,
+          5.434223259179792e-10,
+          1.050471443983803e-09
+        ],
+        "absolute_nonincreasing": false,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          2.734871717718411,
+          1.9330664087260092
+        ]
+      },
+      "material_local_target_defect_J": {
+        "values": [
+          1.438517947588617e-10,
+          4.389860422033925e-10,
+          1.1737676448562942e-09
+        ],
+        "absolute_values": [
+          1.438517947588617e-10,
+          4.389860422033925e-10,
+          1.1737676448562942e-09
+        ],
+        "absolute_nonincreasing": false,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          3.0516549545958975,
+          2.673815410997647
+        ]
+      },
+      "copy_variance_loss_J": {
+        "values": [
+          9.284440608833462e-12,
+          3.4678871626472632e-12,
+          2.235681852500895e-12
+        ],
+        "absolute_values": [
+          9.284440608833462e-12,
+          3.4678871626472632e-12,
+          2.235681852500895e-12
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.3735160047604617,
+          0.644681256236219
+        ]
+      }
+    },
+    "loading": {
+      "physical_R_J": {
+        "values": [
+          9.881148412323185e-07,
+          -4.456463162777668e-07,
+          -3.40773523170655e-07
+        ],
+        "absolute_values": [
+          9.881148412323185e-07,
+          4.456463162777668e-07,
+          3.40773523170655e-07
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": true,
+        "adjacent_absolute_ratios": [
+          0.4510066013399647,
+          0.7646725906251054
+        ]
+      },
+      "maximum_cumulative_R_J": {
+        "values": [
+          1.6302304284077832e-06,
+          4.456463162777668e-07,
+          3.591071003006462e-07
+        ],
+        "absolute_values": [
+          1.6302304284077832e-06,
+          4.456463162777668e-07,
+          3.591071003006462e-07
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.2733640033409397,
+          0.805811889796523
+        ]
+      },
+      "common_grid_residual_total_variation_J": {
+        "values": [
+          4.99805954800908e-06,
+          1.0951093481193998e-06,
+          1.074182761141667e-06
+        ],
+        "absolute_values": [
+          4.99805954800908e-06,
+          1.0951093481193998e-06,
+          1.074182761141667e-06
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.2191069029090748,
+          0.9808908699266704
+        ]
+      },
+      "material_local_target_defect_J": {
+        "values": [
+          -0.00017294156202208357,
+          -4.20478588948468e-05,
+          -5.156426238057141e-06
+        ],
+        "absolute_values": [
+          0.00017294156202208357,
+          4.20478588948468e-05,
+          5.156426238057141e-06
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.24313333592695055,
+          0.1226323140722176
+        ]
+      },
+      "copy_variance_loss_J": {
+        "values": [
+          1.8199437457692788e-05,
+          7.766625100253664e-06,
+          3.844464113484478e-06
+        ],
+        "absolute_values": [
+          1.8199437457692788e-05,
+          7.766625100253664e-06,
+          3.844464113484478e-06
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.42675083327758356,
+          0.4949980285978932
+        ]
+      }
+    },
+    "unloading": {
+      "physical_R_J": {
+        "values": [
+          -2.747944860506021e-06,
+          -3.611172188554637e-07,
+          2.3152585479034718e-08
+        ],
+        "absolute_values": [
+          2.747944860506021e-06,
+          3.611172188554637e-07,
+          2.3152585479034718e-08
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": true,
+        "adjacent_absolute_ratios": [
+          0.13141356074698154,
+          0.06411376769131988
+        ]
+      },
+      "maximum_cumulative_R_J": {
+        "values": [
+          2.747944860506021e-06,
+          4.820467262377944e-07,
+          3.4947769820578326e-07
+        ],
+        "absolute_values": [
+          2.747944860506021e-06,
+          4.820467262377944e-07,
+          3.4947769820578326e-07
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.17542081472079749,
+          0.7249871831582263
+        ]
+      },
+      "common_grid_residual_total_variation_J": {
+        "values": [
+          2.9615072137291244e-06,
+          1.4484736984402452e-06,
+          9.808455793495115e-07
+        ],
+        "absolute_values": [
+          2.9615072137291244e-06,
+          1.4484736984402452e-06,
+          9.808455793495115e-07
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.4891001756556013,
+          0.6771580184063486
+        ]
+      },
+      "material_local_target_defect_J": {
+        "values": [
+          -3.3560500655146244e-05,
+          2.99046590908045e-06,
+          8.448121957090986e-06
+        ],
+        "absolute_values": [
+          3.3560500655146244e-05,
+          2.99046590908045e-06,
+          8.448121957090986e-06
+        ],
+        "absolute_nonincreasing": false,
+        "sign_changes": true,
+        "adjacent_absolute_ratios": [
+          0.08910671327013964,
+          2.825018647241069
+        ]
+      },
+      "copy_variance_loss_J": {
+        "values": [
+          4.265740395012837e-06,
+          1.7339268282716781e-06,
+          9.103426840052353e-07
+        ],
+        "absolute_values": [
+          4.265740395012837e-06,
+          1.7339268282716781e-06,
+          9.103426840052353e-07
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.40647734454230894,
+          0.5250179356833848
+        ]
+      }
+    },
+    "whole": {
+      "physical_R_J": {
+        "values": [
+          -1.7597282365877818e-06,
+          -8.063683572091455e-07,
+          -3.1657046624763647e-07
+        ],
+        "absolute_values": [
+          1.7597282365877818e-06,
+          8.063683572091455e-07,
+          3.1657046624763647e-07
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.4582345957991456,
+          0.39258790776871777
+        ]
+      },
+      "maximum_cumulative_R_J": {
+        "values": [
+          1.759728236587782e-06,
+          8.126470415551851e-07,
+          3.580566288566624e-07
+        ],
+        "absolute_values": [
+          1.759728236587782e-06,
+          8.126470415551851e-07,
+          3.580566288566624e-07
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.46180258102294036,
+          0.4406053434605995
+        ]
+      },
+      "common_grid_residual_total_variation_J": {
+        "values": [
+          7.95976546295055e-06,
+          2.5441264688855634e-06,
+          2.0560788119351625e-06
+        ],
+        "absolute_values": [
+          7.95976546295055e-06,
+          2.5441264688855634e-06,
+          2.0560788119351625e-06
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.319623295526411,
+          0.8081669040752574
+        ]
+      },
+      "material_local_target_defect_J": {
+        "values": [
+          -0.00020650191882543503,
+          -3.905695399972415e-05,
+          3.2928694866787024e-06
+        ],
+        "absolute_values": [
+          0.00020650191882543503,
+          3.905695399972415e-05,
+          3.2928694866787024e-06
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": true,
+        "adjacent_absolute_ratios": [
+          0.18913603428905992,
+          0.08430942890994417
+        ]
+      },
+      "copy_variance_loss_J": {
+        "values": [
+          2.2465187137146236e-05,
+          9.500555396412506e-06,
+          4.7548090331715655e-06
+        ],
+        "absolute_values": [
+          2.2465187137146236e-05,
+          9.500555396412506e-06,
+          4.7548090331715655e-06
+        ],
+        "absolute_nonincreasing": true,
+        "sign_changes": false,
+        "adjacent_absolute_ratios": [
+          0.42290123551667713,
+          0.5004769547438273
+        ]
+      }
+    }
+  },
+  "common_grid_curve_differences": {
+    "cumulative_R_J": {
+      "adjacent_rms_differences": [
+        7.493818151771206e-07,
+        2.300383866964016e-07
+      ],
+      "adjacent_max_differences": [
+        1.8185727280560192e-06,
+        4.89797890961509e-07
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 1.7038263440540429
+    },
+    "cumulative_force_quadrature_J": {
+      "adjacent_rms_differences": [
+        3.096441069195351e-08,
+        1.4411858560356476e-08
+      ],
+      "adjacent_max_differences": [
+        7.046319482138561e-08,
+        3.422452457019719e-08
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 1.1033545910818818
+    },
+    "cumulative_copy_variance_J": {
+      "adjacent_rms_differences": [
+        8.936905722204038e-06,
+        3.2314081499805778e-06
+      ],
+      "adjacent_max_differences": [
+        1.2979017338783921e-05,
+        4.745746363240935e-06
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 1.4676124201919847
+    },
+    "cumulative_material_local_target_defect_J": {
+      "adjacent_rms_differences": [
+        0.00011393066263833455,
+        3.0002769885627345e-05
+      ],
+      "adjacent_max_differences": [
+        0.0001676532331961307,
+        4.235617466758575e-05
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 1.9249884748612502
+    },
+    "cumulative_contact_position_U_J": {
+      "adjacent_rms_differences": [
+        4.61340429483032e-05,
+        5.404363984536468e-06
+      ],
+      "adjacent_max_differences": [
+        6.82124173198999e-05,
+        7.1063644623312885e-06
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 3.0936349795307394
+    },
+    "cumulative_contact_impulse_work_J": {
+      "adjacent_rms_differences": [
+        9.496339378519311e-05,
+        1.5524808265222505e-05
+      ],
+      "adjacent_max_differences": [
+        0.0001394119477252591,
+        2.1332972119024704e-05
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 2.6127960437282227
+    },
+    "soft_position_m": {
+      "adjacent_rms_differences": [
+        1.0623458332350662e-05,
+        6.1304661059305895e-06
+      ],
+      "adjacent_max_differences": [
+        8.757412433624268e-05,
+        4.464387893676758e-05
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 0.7931848208527388
+    },
+    "soft_deformation_m": {
+      "adjacent_rms_differences": [
+        8.802128316785177e-06,
+        4.999529751268569e-06
+      ],
+      "adjacent_max_differences": [
+        6.239473819732999e-05,
+        2.8389930725097878e-05
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 0.8160599999851095
+    },
+    "soft_velocity_m_s": {
+      "adjacent_rms_differences": [
+        0.0023208653521312743,
+        0.001374386277709612
+      ],
+      "adjacent_max_differences": [
+        0.031217590672895312,
+        0.030469690449535847
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 0.7558752880212585
+    },
+    "joint_position_m": {
+      "adjacent_rms_differences": [
+        8.514124009645053e-06,
+        4.016087489979453e-06
+      ],
+      "adjacent_max_differences": [
+        3.701471723616123e-05,
+        1.9598286598920822e-05
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 1.0840674048003145
+    },
+    "joint_velocity_m_s": {
+      "adjacent_rms_differences": [
+        0.00017957709613186562,
+        8.440655814603969e-05
+      ],
+      "adjacent_max_differences": [
+        0.0009390231571160257,
+        0.00022581126540899277
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 1.0891763539818704
+    },
+    "target_U_J": {
+      "adjacent_rms_differences": [
+        5.296774472805151e-07,
+        8.676331246532768e-08
+      ],
+      "adjacent_max_differences": [
+        1.673878141262977e-06,
+        3.559108665777583e-07
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 2.609957043920722
+    },
+    "kinetic_soft_J": {
+      "adjacent_rms_differences": [
+        3.5464395792126984e-07,
+        1.0114628894552992e-07
+      ],
+      "adjacent_max_differences": [
+        1.0848151770876582e-06,
+        3.1984803539423895e-07
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 1.8099279801404335
+    },
+    "kinetic_art_J": {
+      "adjacent_rms_differences": [
+        1.4560140606102333e-06,
+        9.655481418123723e-07
+      ],
+      "adjacent_max_differences": [
+        3.7002976841006585e-06,
+        2.49981187444028e-06
+      ],
+      "rms_difference_reduces": true,
+      "descriptive_log2_difference_ratio": 0.5926041893613321
+    }
+  },
+  "full_physical_energy_accepted": false,
+  "scope": [
+    "Fixed32iterations means increased total compute at higherHz. No same-budget or timing claim.",
+    "Three-level differences measure sensitivity; the finest trajectory is not an exact reference.",
+    "Material local target defect uses one copied-tetrahedron state domain; root publication and numerical copy variance stay separate.",
+    "Signed phase balances, absolute increments and cumulative maxima are retained. No fitted dissipation or whole-horizon-only pass."
+  ],
+  "sources": [
+    {
+      "path": "outputs/paper-energy-closure-v4/articulation/executed-v1/frame-contract.npz",
+      "sha256": "4b5019b234612d8a28555559e8f9935ba3607ca4e44e277dd838b968f416cde7"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v4/articulation/executed-v1/independent-inputs.npz",
+      "sha256": "66eb7d9d82893bef8f6c83f2f17b6cbb3f6be71e6bea142c794f9337650ef341"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v4/articulation/executed-v1/summary.json",
+      "sha256": "61e75b48013b48c9c3725d457f5a3ec35a18e35c696f156af3136880583ca94d"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v4/contact/coupled-full-v2/unpacked/runs/D-unified-960/medium_coupon/coupled-energy-endpoints.npz",
+      "sha256": "b7a0e002ef0c1cafcfcc6ffefe920d8d06abcde010c6133dbad0841bbd6ffafd"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v4/contact/coupled-full-v2/unpacked/runs/D-unified-960/medium_coupon/coupled-energy-receipt.json",
+      "sha256": "68372746811a88cb698b9913b45ff0e033b8712701d3ee11eabff6ac5108365d"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v4/material/analysis-v1/joined-contact.json",
+      "sha256": "4d8ac8e9ec98a87dd32ca5c7f833ac3b4e8aa8ef66421f4d903e930989a12c26"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v4/material/analysis-v1/root-ports/material-frame-ports.npz",
+      "sha256": "f23498537366f27617c112428716f1d2c84fc6bff20fb5f98e96f1eb28f53e93"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/articulation/1920-v1/frame-contract.npz",
+      "sha256": "0dfd865a1f334ef8295e1820849f85442426b7a5ede3e98371689d3287175dfd"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/articulation/1920-v1/independent-inputs.npz",
+      "sha256": "994e2dbf4e9a2fc3c0024cf9470791f745e5e4df4256b7108a487a92659e4f88"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/articulation/1920-v1/summary.json",
+      "sha256": "10c507918de0749a3e9c1b991c10d797368e874d509096f94bc8768cd5164113"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/articulation/480-v1/frame-contract.npz",
+      "sha256": "af29188414bbcc82e6c072a29f04516eb54eb33a651376fd41dce1dc2558aab7"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/articulation/480-v1/independent-inputs.npz",
+      "sha256": "c4b6e8049b7693d2ef46788fe6eb8a09171f5d5508b95b50cf33a2a67fde4910"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/articulation/480-v1/summary.json",
+      "sha256": "befc7528d20eea0e831dfedf3242b13de0af76d0d9770f6f352f033b83353c21"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/contact/1920/unpacked/runs/D-unified-1920/medium_coupon/coupled-energy-endpoints.npz",
+      "sha256": "b6b8fe08f0fc26db3a732952f7c5bb2af44868cf0022649efdd196e7d7c75c8a"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/contact/1920/unpacked/runs/D-unified-1920/medium_coupon/coupled-energy-receipt.json",
+      "sha256": "f65bb2afb6a200e00ff04a7612179ab2f3d0311efdffa95f61a988de5e83f654"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/contact/480/unpacked/runs/D-unified-480/medium_coupon/coupled-energy-endpoints.npz",
+      "sha256": "806ce97cb333790dd1dc32bd1d1c8d5771131b636ad599a898e33571956e845c"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/contact/480/unpacked/runs/D-unified-480/medium_coupon/coupled-energy-receipt.json",
+      "sha256": "2197409133e7dc7f1e07cf0057fc713e60bc0cfde11e62969e6e46ce32790f15"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-1920-v1/case-provenance.json",
+      "sha256": "d23319d84d87e9d99ad4d7d9336f9c46a255a895a91950c6484deba129005747"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-1920-v1/joined-contact.json",
+      "sha256": "f808c2051b1fc9b53e4c0cc53e396861b0577f304c9580d14c3b248e467f267d"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-1920-v1/local-corner-frame-ports.npz",
+      "sha256": "08d62441e790489d36f96e35da35eee3bae252d7ec23e19f50656f613fdfb233"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-1920-v1/material-round-frame-ports.npz",
+      "sha256": "927c6449c28ab0e5ef4aa760b73b65aaf2e9eb3ccf1a9b5e620661cfbbf14894"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-1920-v1/root-ports/material-frame-ports.npz",
+      "sha256": "1602e7783d8f9286bf596323a55f9078d50efea7e1da27aa81b5941123daa78d"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-1920-v1/time/time-advance-frame-ports.npz",
+      "sha256": "cd5ef00dd32d76cfa54118708aee4383b923c0381d312d638a1b22accaa300c7"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-480-v1/case-provenance.json",
+      "sha256": "ec41bb47ce89c9379732c3a3b49fd81fec43439b4a71df0e99b6617da05e3ecf"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-480-v1/joined-contact.json",
+      "sha256": "ce38578760f6533f890d3fa819749ae7449b60759eacdb56903817f59eb307bd"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-480-v1/local-corner-frame-ports.npz",
+      "sha256": "8b5ddbc05dea7f6f556bd3262b691e90f74232cfef94b597ed84a09dd1d7e242"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-480-v1/material-round-frame-ports.npz",
+      "sha256": "ebd1e3846515a0acd6f9ce419aef75e733189685dd9dc06795dbec42f4a9d604"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-480-v1/root-ports/material-frame-ports.npz",
+      "sha256": "34be1d811f7d2c15b38494c51ab2241faf7dd851fcb4f1dae1f9a05ac5bddd85"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/rate-480-v1/time/time-advance-frame-ports.npz",
+      "sha256": "fb3901ba4ef84173984995b66e19c4827529b617fb57abeabb7f45d203933532"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/reference-960-v1/case-provenance.json",
+      "sha256": "180acefaedcade84dfb67daa2e3b905a93e6d3c3697ff1bf882f3b24df5a6141"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/reference-960-v1/local-corner-frame-ports.npz",
+      "sha256": "83564c6483ca783351841a5cd8b5f4c8f9da8cfa0b6a236a978c96d210f8fe29"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/reference-960-v1/material-round-frame-ports.npz",
+      "sha256": "0860b517f136fcaf243090af130176a4e3be1969b4f1189ff1296690aec5e605"
+    },
+    {
+      "path": "outputs/paper-energy-closure-v5/material/reference-960-v1/time/time-advance-frame-ports.npz",
+      "sha256": "0a929ebdf0dc3a06455b12c5f8589812362f49f41a9e525eff1802eb3a056d91"
+    },
+    {
+      "path": "archive/joint-energy-ledger.npz",
+      "sha256": "27b193138274dd51fe0995fa33dab0a654545e67591d644914c91e403525ffc6"
+    },
+    {
+      "path": "archive/joint-energy-summary.json",
+      "sha256": "9a2da4f485c91431cb22b5de792c9eac46580d2cc9598f3143a4439a7bafd890"
+    },
+    {
+      "path": "archive/comparison-manifest.json",
+      "sha256": "db1415bd156a3aac4e36eeb65c4220fba713ee4bd731e10da057f8df9b81a0e1"
+    },
+    {
+      "path": "archive/joint-energy-ledger.npz",
+      "sha256": "5af20fbf825f68f8a62430156d67c1de55f24c36ae1aa14501b058789292ccb7"
+    },
+    {
+      "path": "archive/joint-energy-summary.json",
+      "sha256": "c8e7b83f441a29b5c6ce0478c773f9b04ccb510411dc46d37924436346682e4c"
+    },
+    {
+      "path": "archive/joint-energy-ledger.npz",
+      "sha256": "590c8f65bccef0b6ec166aef39e922d0eca39e423c6cadcab01696eb69fdd332"
+    },
+    {
+      "path": "archive/joint-energy-summary.json",
+      "sha256": "cfe9cbf0f1a5ebd6867d7d6ebebf6c10b9a43ceaee9f00599a82e0dce4c52e89"
+    },
+    {
+      "path": "work/paper-energy-closure-v5/assemble_observed_run.py",
+      "sha256": "c5a4439345dff2006dc8ab7cce74b63879799f63b788525d12d1339a1022b2d1"
+    },
+    {
+      "path": "work/paper-energy-closure-v5/compare_refinement.py",
+      "sha256": "1e7eb5f975b9705283ea7cf4e0c9b10e0dd6d7fbc28ee9d44bbb5e08207150d8"
+    },
+    {
+      "path": "work/paper-energy-closure-v5/joint_energy_accounting.py",
+      "sha256": "74f0b66b2a57f54152a74d20255c2aedc3e7a62331ced8fb781fd0191887aace"
+    }
+  ]
+}

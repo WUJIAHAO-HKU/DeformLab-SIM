@@ -1,0 +1,294 @@
+{
+  "name": "quality-constrained-topology-v1",
+  "scope": "independent CPU mass-spring reference; topology stress only",
+  "aggregate": {
+    "D": {
+      "n": 15,
+      "success": 15,
+      "valid": 15,
+      "median_task_penetration_um": 2.9990719497516216,
+      "mean_active_row_work": 48520.13333333333,
+      "mean_admissions": 92.2,
+      "bound_violations": 0
+    },
+    "Dense": {
+      "n": 15,
+      "success": 15,
+      "valid": 15,
+      "median_task_penetration_um": 5.199244569977253,
+      "mean_active_row_work": 52864.0,
+      "mean_admissions": 94.4,
+      "bound_violations": 0
+    },
+    "Frozen": {
+      "n": 15,
+      "success": 3,
+      "valid": 15,
+      "median_task_penetration_um": 14459.143169808116,
+      "mean_active_row_work": 32517.333333333332,
+      "mean_admissions": 58.06666666666668,
+      "bound_violations": 0
+    },
+    "PreFinal": {
+      "n": 15,
+      "success": 15,
+      "valid": 15,
+      "median_task_penetration_um": 2.9990719497516216,
+      "mean_active_row_work": 48512.26666666667,
+      "mean_admissions": 92.2,
+      "bound_violations": 0
+    }
+  },
+  "task_summary": {
+    "soft_block_plane": {
+      "D": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 3.2645018325205133e-06,
+        "mean_rows": 53684.333333333336,
+        "mean_admissions": 117.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 8.700273121484558e-07
+      },
+      "Dense": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 6.629354884912608e-06,
+        "mean_rows": 71680.0,
+        "mean_admissions": 128.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.010178365361740193
+      },
+      "Frozen": {
+        "n": 3,
+        "success": 0,
+        "valid": 3,
+        "median_penetration_m": 0.021862510814878524,
+        "mean_rows": 34906.666666666664,
+        "mean_admissions": 62.333333333333336,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.010178365361740193
+      },
+      "PreFinal": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 3.2645018325205133e-06,
+        "mean_rows": 53683.333333333336,
+        "mean_admissions": 117.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 6.034930720589988e-05
+      }
+    },
+    "cloth_multi_patch": {
+      "D": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 1.5830658499045882e-06,
+        "mean_rows": 23520.0,
+        "mean_admissions": 42.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0005588685499292188
+      },
+      "Dense": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 3.212987894279319e-06,
+        "mean_rows": 23520.0,
+        "mean_admissions": 42.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0005588685499292188
+      },
+      "Frozen": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 3.212987894279319e-06,
+        "mean_rows": 23520.0,
+        "mean_admissions": 42.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0005588685499292188
+      },
+      "PreFinal": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 1.5830658499045882e-06,
+        "mean_rows": 23520.0,
+        "mean_admissions": 42.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0005588685499292188
+      }
+    },
+    "cloth_self_fold": {
+      "D": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 5.246703320409274e-06,
+        "mean_rows": 63910.666666666664,
+        "mean_admissions": 120.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 8.718799702076051e-05
+      },
+      "Dense": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 6.213363666988589e-06,
+        "mean_rows": 67200.0,
+        "mean_admissions": 120.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.006315186041524657
+      },
+      "Frozen": {
+        "n": 3,
+        "success": 0,
+        "valid": 3,
+        "median_penetration_m": 0.019838340484349293,
+        "mean_rows": 33600.0,
+        "mean_admissions": 60.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.006315186041524657
+      },
+      "PreFinal": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 5.246703320409274e-06,
+        "mean_rows": 63874.333333333336,
+        "mean_admissions": 120.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 8.718799702076051e-05
+      }
+    },
+    "two_soft_bodies": {
+      "D": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 2.5451889953918398e-06,
+        "mean_rows": 30115.333333333332,
+        "mean_admissions": 54.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0007112837950464608
+      },
+      "Dense": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 5.159710983881042e-06,
+        "mean_rows": 30240.0,
+        "mean_admissions": 54.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0010066410513581753
+      },
+      "Frozen": {
+        "n": 3,
+        "success": 0,
+        "valid": 3,
+        "median_penetration_m": 0.014770243414803692,
+        "mean_rows": 21466.666666666668,
+        "mean_admissions": 38.333333333333336,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0010066410513581753
+      },
+      "PreFinal": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 2.5451889953918398e-06,
+        "mean_rows": 30114.0,
+        "mean_admissions": 54.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0007112837950464608
+      }
+    },
+    "soft_wedge": {
+      "D": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 2.3558997505318926e-06,
+        "mean_rows": 71370.33333333333,
+        "mean_admissions": 128.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0007810637499501957
+      },
+      "Dense": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 4.780805419824711e-06,
+        "mean_rows": 71680.0,
+        "mean_admissions": 128.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0010719669905230789
+      },
+      "Frozen": {
+        "n": 3,
+        "success": 0,
+        "valid": 3,
+        "median_penetration_m": 0.015821408147114795,
+        "mean_rows": 49093.333333333336,
+        "mean_admissions": 87.66666666666667,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0010719669905230789
+      },
+      "PreFinal": {
+        "n": 3,
+        "success": 3,
+        "valid": 3,
+        "median_penetration_m": 2.3558997505318926e-06,
+        "mean_rows": 71369.66666666667,
+        "mean_admissions": 128.0,
+        "bound_violations": 0,
+        "min_bound_slack_m": 0.0007810637499501957
+      }
+    }
+  },
+  "theory": {
+    "name": "quality-constrained-topology-v1",
+    "solver": "independent CPU mass-spring reference",
+    "tasks": [
+      "soft_block_plane",
+      "cloth_multi_patch",
+      "cloth_self_fold",
+      "two_soft_bodies",
+      "soft_wedge"
+    ],
+    "methods": [
+      "D",
+      "Dense",
+      "Frozen",
+      "PreFinal"
+    ],
+    "seeds": [
+      13,
+      29,
+      47
+    ],
+    "inner_iterations": 8,
+    "dt_s": 0.004,
+    "relaxation": {
+      "D": 0.92,
+      "PreFinal": 0.92,
+      "Dense": 0.85,
+      "Frozen": 0.85
+    },
+    "bound": "p_K <= [-g_admit]_+ + h R v_in + 0.5 L_J (h ||v||)^2 + epsilon_solve",
+    "bound_assumptions": [
+      "gap is C2 on each active contact chart",
+      "normal-Jacobian Lipschitz constant L_J is bounded on the chart",
+      "the response indicator upper-bounds inward normal speed until the next inner solve",
+      "the final position residual epsilon_solve is measured, not assumed zero"
+    ],
+    "scope": "independent reference and topology stress test; not a native GPU acceptance claim"
+  },
+  "source_sha256": "dd13fbf865b24497f35ed3dcff43d963a70c0a3a64cd32c72acaddc254aa1cca",
+  "script_sha256": "8c1d96c98b1415a3b32d2bda75c2656abd7ea24a021d8ce61694dd48a7cdded8"
+}
