@@ -13,10 +13,10 @@ The two independent confirmation cohorts use 100,000 bootstrap draws with seed 2
 
 ## Full trajectory archives
 
-Place the ZIP downloads from the [RA-L data release](https://github.com/WUJIAHAO-HKU/DeformLab-SIM/releases/tag/ral-2026.11) in `downloads/`. Verify them against the manifest.
+Place the two Franka ZIPs and the numbered schedule archive parts from the [RA-L data release](https://github.com/WUJIAHAO-HKU/DeformLab-SIM/releases/tag/ral-2026.11) in `downloads/`. The following command verifies the downloads and assembles the six schedule ZIPs. Allow about 14 GB of disk space while the parts and assembled ZIPs coexist.
 
 ```sh
-python -B code/verify_downloads.py downloads
+python -B code/verify_downloads.py downloads --assemble
 python -B code/score_franka_archive.py downloads/franka-confirmation-trajectories.zip
 python -B code/score_franka_archive.py downloads/franka-demonstration-trajectories.zip
 ```
